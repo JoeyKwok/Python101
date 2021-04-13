@@ -1,0 +1,8 @@
+Data Source,CORE,DNS,DNS Overview,DNS MAIN
+Data Source,CORE,DNS,A_Testing for KPI Web,AAA
+Data Source,CORE,DNS,DNS001 Internal resolution success rate,DNS1
+Data Source,CORE,DNS,DNS002 External resolution success rate,DNS2
+Workbook,CDR,STS,CDR Daily - STS Report,Overall
+Workbook,CDR,VoWifi,CDR Daily - VoWifi Report,Overall
+Workbook,Flow Monitoring,Project ID,ID
+Default,Data Sources Verification,Verification Template - UGW,Verify

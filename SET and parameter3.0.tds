@@ -1,0 +1,1590 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20203.21.0216.1504                               -->
+<datasource formatted-name='SET and parameter3.0' inline='true' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+  </document-format-change-manifest>
+  <connection class='federated'>
+    <named-connections>
+      <named-connection caption='172.22.144.92' name='postgres.03xpz1e0mf820511ife4b1sg5i5d'>
+        <connection authentication='username-password' class='postgres' dbname='pms' odbc-native-protocol='' one-time-sql='' port='6403' server='172.22.140.21' sslmode='require' username='tableau' />
+      </named-connection>
+    </named-connections>
+    <_.fcp.ObjectModelEncapsulateLegacy.false...relation join='inner' type='join'>
+      <clause type='join'>
+        <expression op='='>
+          <expression op='[t_f60_usn_m117496914].[ne_sys_id]' />
+          <expression op='[t_dim_usn].[ne_sys_id]' />
+        </expression>
+      </clause>
+      <relation join='inner' type='join'>
+        <clause type='join'>
+          <expression op='='>
+            <expression op='[t_f60_usn_m117496914].[time_id]' />
+            <expression op='[t_dim_mdatetime].[time_id]' />
+          </expression>
+        </clause>
+        <relation connection='postgres.03xpz1e0mf820511ife4b1sg5i5d' name='t_f60_usn_m117496914' table='[pms].[t_f60_usn_m117496914]' type='table' />
+        <relation connection='postgres.03xpz1e0mf820511ife4b1sg5i5d' name='t_dim_mdatetime' table='[pms].[t_dim_mdatetime]' type='table' />
+      </relation>
+      <relation connection='postgres.03xpz1e0mf820511ife4b1sg5i5d' name='t_dim_usn' table='[pms].[t_dim_usn]' type='table' />
+    </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+    <_.fcp.ObjectModelEncapsulateLegacy.true...relation join='inner' type='join'>
+      <clause type='join'>
+        <expression op='='>
+          <expression op='[t_f60_usn_m117496914].[ne_sys_id]' />
+          <expression op='[t_dim_usn].[ne_sys_id]' />
+        </expression>
+      </clause>
+      <relation join='inner' type='join'>
+        <clause type='join'>
+          <expression op='='>
+            <expression op='[t_f60_usn_m117496914].[time_id]' />
+            <expression op='[t_dim_mdatetime].[time_id]' />
+          </expression>
+        </clause>
+        <relation connection='postgres.03xpz1e0mf820511ife4b1sg5i5d' name='t_f60_usn_m117496914' table='[pms].[t_f60_usn_m117496914]' type='table' />
+        <relation connection='postgres.03xpz1e0mf820511ife4b1sg5i5d' name='t_dim_mdatetime' table='[pms].[t_dim_mdatetime]' type='table' />
+      </relation>
+      <relation connection='postgres.03xpz1e0mf820511ife4b1sg5i5d' name='t_dim_usn' table='[pms].[t_dim_usn]' type='table' />
+    </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+    <cols>
+      <map key='[begintime]' value='[t_f60_usn_m117496914].[begintime]' />
+      <map key='[c117480513]' value='[t_f60_usn_m117496914].[c117480513]' />
+      <map key='[c117480514]' value='[t_f60_usn_m117496914].[c117480514]' />
+      <map key='[c117480515]' value='[t_f60_usn_m117496914].[c117480515]' />
+      <map key='[c117480516]' value='[t_f60_usn_m117496914].[c117480516]' />
+      <map key='[c117480517]' value='[t_f60_usn_m117496914].[c117480517]' />
+      <map key='[c117480518]' value='[t_f60_usn_m117496914].[c117480518]' />
+      <map key='[c117480519]' value='[t_f60_usn_m117496914].[c117480519]' />
+      <map key='[c117480520]' value='[t_f60_usn_m117496914].[c117480520]' />
+      <map key='[c117480521]' value='[t_f60_usn_m117496914].[c117480521]' />
+      <map key='[c117480522]' value='[t_f60_usn_m117496914].[c117480522]' />
+      <map key='[c117480523]' value='[t_f60_usn_m117496914].[c117480523]' />
+      <map key='[c117480524]' value='[t_f60_usn_m117496914].[c117480524]' />
+      <map key='[c117480525]' value='[t_f60_usn_m117496914].[c117480525]' />
+      <map key='[c117480526]' value='[t_f60_usn_m117496914].[c117480526]' />
+      <map key='[c117480527]' value='[t_f60_usn_m117496914].[c117480527]' />
+      <map key='[c117480528]' value='[t_f60_usn_m117496914].[c117480528]' />
+      <map key='[c117480529]' value='[t_f60_usn_m117496914].[c117480529]' />
+      <map key='[c117480530]' value='[t_f60_usn_m117496914].[c117480530]' />
+      <map key='[c117480531]' value='[t_f60_usn_m117496914].[c117480531]' />
+      <map key='[c117480532]' value='[t_f60_usn_m117496914].[c117480532]' />
+      <map key='[c117480533]' value='[t_f60_usn_m117496914].[c117480533]' />
+      <map key='[c117480534]' value='[t_f60_usn_m117496914].[c117480534]' />
+      <map key='[c117480535]' value='[t_f60_usn_m117496914].[c117480535]' />
+      <map key='[c117480536]' value='[t_f60_usn_m117496914].[c117480536]' />
+      <map key='[c117480537]' value='[t_f60_usn_m117496914].[c117480537]' />
+      <map key='[c117480538]' value='[t_f60_usn_m117496914].[c117480538]' />
+      <map key='[c117480539]' value='[t_f60_usn_m117496914].[c117480539]' />
+      <map key='[c117480540]' value='[t_f60_usn_m117496914].[c117480540]' />
+      <map key='[c117480541]' value='[t_f60_usn_m117496914].[c117480541]' />
+      <map key='[c117480542]' value='[t_f60_usn_m117496914].[c117480542]' />
+      <map key='[c117480543]' value='[t_f60_usn_m117496914].[c117480543]' />
+      <map key='[c117480544]' value='[t_f60_usn_m117496914].[c117480544]' />
+      <map key='[c117480545]' value='[t_f60_usn_m117496914].[c117480545]' />
+      <map key='[c117480546]' value='[t_f60_usn_m117496914].[c117480546]' />
+      <map key='[c117480547]' value='[t_f60_usn_m117496914].[c117480547]' />
+      <map key='[c117480548]' value='[t_f60_usn_m117496914].[c117480548]' />
+      <map key='[c117480549]' value='[t_f60_usn_m117496914].[c117480549]' />
+      <map key='[c117480550]' value='[t_f60_usn_m117496914].[c117480550]' />
+      <map key='[c117480551]' value='[t_f60_usn_m117496914].[c117480551]' />
+      <map key='[c117480552]' value='[t_f60_usn_m117496914].[c117480552]' />
+      <map key='[c117480553]' value='[t_f60_usn_m117496914].[c117480553]' />
+      <map key='[c117480554]' value='[t_f60_usn_m117496914].[c117480554]' />
+      <map key='[c117480555]' value='[t_f60_usn_m117496914].[c117480555]' />
+      <map key='[c117480556]' value='[t_f60_usn_m117496914].[c117480556]' />
+      <map key='[c117480557]' value='[t_f60_usn_m117496914].[c117480557]' />
+      <map key='[c117480558]' value='[t_f60_usn_m117496914].[c117480558]' />
+      <map key='[c117480559]' value='[t_f60_usn_m117496914].[c117480559]' />
+      <map key='[c117480560]' value='[t_f60_usn_m117496914].[c117480560]' />
+      <map key='[c117480561]' value='[t_f60_usn_m117496914].[c117480561]' />
+      <map key='[c117480562]' value='[t_f60_usn_m117496914].[c117480562]' />
+      <map key='[c117480563]' value='[t_f60_usn_m117496914].[c117480563]' />
+      <map key='[c117480566]' value='[t_f60_usn_m117496914].[c117480566]' />
+      <map key='[c117490664]' value='[t_f60_usn_m117496914].[c117490664]' />
+      <map key='[c117490665]' value='[t_f60_usn_m117496914].[c117490665]' />
+      <map key='[date_id]' value='[t_dim_mdatetime].[date_id]' />
+      <map key='[date_key]' value='[t_dim_mdatetime].[date_key]' />
+      <map key='[day]' value='[t_dim_mdatetime].[day]' />
+      <map key='[dim_end_date]' value='[t_dim_usn].[dim_end_date]' />
+      <map key='[dim_start_date]' value='[t_dim_usn].[dim_start_date]' />
+      <map key='[duration]' value='[t_f60_usn_m117496914].[duration]' />
+      <map key='[holiday]' value='[t_dim_mdatetime].[holiday]' />
+      <map key='[hour]' value='[t_dim_mdatetime].[hour]' />
+      <map key='[inserttime]' value='[t_f60_usn_m117496914].[inserttime]' />
+      <map key='[measobjldn]' value='[t_f60_usn_m117496914].[measobjldn]' />
+      <map key='[month]' value='[t_dim_mdatetime].[month]' />
+      <map key='[ne_name]' value='[t_dim_usn].[ne_name]' />
+      <map key='[ne_sys_id (t_dim_usn)]' value='[t_dim_usn].[ne_sys_id]' />
+      <map key='[ne_sys_id]' value='[t_f60_usn_m117496914].[ne_sys_id]' />
+      <map key='[rec_islive]' value='[t_dim_usn].[rec_islive]' />
+      <map key='[time_id (t_dim_mdatetime)]' value='[t_dim_mdatetime].[time_id]' />
+      <map key='[time_id]' value='[t_f60_usn_m117496914].[time_id]' />
+      <map key='[time_key]' value='[t_dim_mdatetime].[time_key]' />
+      <map key='[userlabel]' value='[t_f60_usn_m117496914].[userlabel]' />
+      <map key='[week_of_year]' value='[t_dim_mdatetime].[week_of_year]' />
+      <map key='[weekday]' value='[t_dim_mdatetime].[weekday]' />
+      <map key='[year]' value='[t_dim_mdatetime].[year]' />
+    </cols>
+    <metadata-records>
+      <metadata-record class='column'>
+        <remote-name>time_id</remote-name>
+        <remote-type>7</remote-type>
+        <local-name>[time_id]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>time_id</remote-alias>
+        <ordinal>1</ordinal>
+        <local-type>datetime</local-type>
+        <aggregation>Year</aggregation>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_TIMESTAMP&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_TIMESTAMP&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>ne_sys_id</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[ne_sys_id]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>ne_sys_id</remote-alias>
+        <ordinal>2</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>begintime</remote-name>
+        <remote-type>7</remote-type>
+        <local-name>[begintime]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>begintime</remote-alias>
+        <ordinal>3</ordinal>
+        <local-type>datetime</local-type>
+        <aggregation>Year</aggregation>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_TIMESTAMP&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_TIMESTAMP&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>inserttime</remote-name>
+        <remote-type>7</remote-type>
+        <local-name>[inserttime]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>inserttime</remote-alias>
+        <ordinal>4</ordinal>
+        <local-type>datetime</local-type>
+        <aggregation>Year</aggregation>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_TIMESTAMP&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_TIMESTAMP&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>duration</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[duration]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>duration</remote-alias>
+        <ordinal>5</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>userlabel</remote-name>
+        <remote-type>130</remote-type>
+        <local-name>[userlabel]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>userlabel</remote-alias>
+        <ordinal>6</ordinal>
+        <local-type>string</local-type>
+        <aggregation>Count</aggregation>
+        <width>64</width>
+        <contains-null>true</contains-null>
+        <collation flag='0' name='LEN_RUS' />
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+          <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>measobjldn</remote-name>
+        <remote-type>130</remote-type>
+        <local-name>[measobjldn]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>measobjldn</remote-alias>
+        <ordinal>7</ordinal>
+        <local-type>string</local-type>
+        <aggregation>Count</aggregation>
+        <width>255</width>
+        <contains-null>true</contains-null>
+        <collation flag='0' name='LEN_RUS' />
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+          <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480513</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480513]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480513</remote-alias>
+        <ordinal>8</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480514</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480514]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480514</remote-alias>
+        <ordinal>9</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480515</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480515]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480515</remote-alias>
+        <ordinal>10</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480516</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480516]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480516</remote-alias>
+        <ordinal>11</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480517</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480517]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480517</remote-alias>
+        <ordinal>12</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480518</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480518]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480518</remote-alias>
+        <ordinal>13</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480519</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480519]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480519</remote-alias>
+        <ordinal>14</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480520</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480520]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480520</remote-alias>
+        <ordinal>15</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480521</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480521]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480521</remote-alias>
+        <ordinal>16</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480522</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480522]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480522</remote-alias>
+        <ordinal>17</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480523</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480523]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480523</remote-alias>
+        <ordinal>18</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480524</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480524]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480524</remote-alias>
+        <ordinal>19</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480525</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480525]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480525</remote-alias>
+        <ordinal>20</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480526</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480526]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480526</remote-alias>
+        <ordinal>21</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480527</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480527]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480527</remote-alias>
+        <ordinal>22</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480528</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480528]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480528</remote-alias>
+        <ordinal>23</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480529</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480529]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480529</remote-alias>
+        <ordinal>24</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480530</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480530]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480530</remote-alias>
+        <ordinal>25</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480531</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480531]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480531</remote-alias>
+        <ordinal>26</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480532</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480532]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480532</remote-alias>
+        <ordinal>27</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480533</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480533]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480533</remote-alias>
+        <ordinal>28</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480534</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480534]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480534</remote-alias>
+        <ordinal>29</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480535</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480535]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480535</remote-alias>
+        <ordinal>30</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480536</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480536]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480536</remote-alias>
+        <ordinal>31</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480537</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480537]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480537</remote-alias>
+        <ordinal>32</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480538</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480538]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480538</remote-alias>
+        <ordinal>33</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480539</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480539]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480539</remote-alias>
+        <ordinal>34</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480540</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480540]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480540</remote-alias>
+        <ordinal>35</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480541</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480541]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480541</remote-alias>
+        <ordinal>36</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480542</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480542]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480542</remote-alias>
+        <ordinal>37</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480543</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480543]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480543</remote-alias>
+        <ordinal>38</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480544</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480544]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480544</remote-alias>
+        <ordinal>39</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480545</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480545]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480545</remote-alias>
+        <ordinal>40</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480546</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480546]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480546</remote-alias>
+        <ordinal>41</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480547</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480547]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480547</remote-alias>
+        <ordinal>42</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480548</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480548]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480548</remote-alias>
+        <ordinal>43</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480549</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480549]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480549</remote-alias>
+        <ordinal>44</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480550</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480550]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480550</remote-alias>
+        <ordinal>45</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480551</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480551]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480551</remote-alias>
+        <ordinal>46</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480552</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480552]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480552</remote-alias>
+        <ordinal>47</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480553</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480553]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480553</remote-alias>
+        <ordinal>48</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480554</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480554]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480554</remote-alias>
+        <ordinal>49</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480555</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480555]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480555</remote-alias>
+        <ordinal>50</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480556</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480556]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480556</remote-alias>
+        <ordinal>51</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480557</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480557]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480557</remote-alias>
+        <ordinal>52</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480558</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480558]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480558</remote-alias>
+        <ordinal>53</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480559</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480559]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480559</remote-alias>
+        <ordinal>54</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480560</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480560]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480560</remote-alias>
+        <ordinal>55</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480561</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480561]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480561</remote-alias>
+        <ordinal>56</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480562</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480562]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480562</remote-alias>
+        <ordinal>57</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480563</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480563]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480563</remote-alias>
+        <ordinal>58</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117480566</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117480566]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117480566</remote-alias>
+        <ordinal>59</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117490664</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117490664]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117490664</remote-alias>
+        <ordinal>60</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>c117490665</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[c117490665]</local-name>
+        <parent-name>[t_f60_usn_m117496914]</parent-name>
+        <remote-alias>c117490665</remote-alias>
+        <ordinal>61</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>time_id</remote-name>
+        <remote-type>7</remote-type>
+        <local-name>[time_id (t_dim_mdatetime)]</local-name>
+        <parent-name>[t_dim_mdatetime]</parent-name>
+        <remote-alias>time_id</remote-alias>
+        <ordinal>63</ordinal>
+        <local-type>datetime</local-type>
+        <aggregation>Year</aggregation>
+        <contains-null>false</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_TIMESTAMP&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_TIMESTAMP&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>date_id</remote-name>
+        <remote-type>7</remote-type>
+        <local-name>[date_id]</local-name>
+        <parent-name>[t_dim_mdatetime]</parent-name>
+        <remote-alias>date_id</remote-alias>
+        <ordinal>64</ordinal>
+        <local-type>datetime</local-type>
+        <aggregation>Year</aggregation>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_TIMESTAMP&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_TIMESTAMP&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>time_key</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[time_key]</local-name>
+        <parent-name>[t_dim_mdatetime]</parent-name>
+        <remote-alias>time_key</remote-alias>
+        <ordinal>65</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>date_key</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[date_key]</local-name>
+        <parent-name>[t_dim_mdatetime]</parent-name>
+        <remote-alias>date_key</remote-alias>
+        <ordinal>66</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>year</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[year]</local-name>
+        <parent-name>[t_dim_mdatetime]</parent-name>
+        <remote-alias>year</remote-alias>
+        <ordinal>67</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>month</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[month]</local-name>
+        <parent-name>[t_dim_mdatetime]</parent-name>
+        <remote-alias>month</remote-alias>
+        <ordinal>68</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>day</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[day]</local-name>
+        <parent-name>[t_dim_mdatetime]</parent-name>
+        <remote-alias>day</remote-alias>
+        <ordinal>69</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>hour</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[hour]</local-name>
+        <parent-name>[t_dim_mdatetime]</parent-name>
+        <remote-alias>hour</remote-alias>
+        <ordinal>70</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>weekday</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[weekday]</local-name>
+        <parent-name>[t_dim_mdatetime]</parent-name>
+        <remote-alias>weekday</remote-alias>
+        <ordinal>71</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>week_of_year</remote-name>
+        <remote-type>130</remote-type>
+        <local-name>[week_of_year]</local-name>
+        <parent-name>[t_dim_mdatetime]</parent-name>
+        <remote-alias>week_of_year</remote-alias>
+        <ordinal>72</ordinal>
+        <local-type>string</local-type>
+        <aggregation>Count</aggregation>
+        <width>8</width>
+        <contains-null>true</contains-null>
+        <collation flag='0' name='LEN_RUS' />
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+          <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>holiday</remote-name>
+        <remote-type>130</remote-type>
+        <local-name>[holiday]</local-name>
+        <parent-name>[t_dim_mdatetime]</parent-name>
+        <remote-alias>holiday</remote-alias>
+        <ordinal>73</ordinal>
+        <local-type>string</local-type>
+        <aggregation>Count</aggregation>
+        <width>1</width>
+        <contains-null>true</contains-null>
+        <padded-semantics>true</padded-semantics>
+        <collation flag='0' name='LEN_RUS' />
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WCHAR&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>ne_sys_id</remote-name>
+        <remote-type>3</remote-type>
+        <local-name>[ne_sys_id (t_dim_usn)]</local-name>
+        <parent-name>[t_dim_usn]</parent-name>
+        <remote-alias>ne_sys_id</remote-alias>
+        <ordinal>75</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>10</precision>
+        <contains-null>false</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>ne_name</remote-name>
+        <remote-type>130</remote-type>
+        <local-name>[ne_name]</local-name>
+        <parent-name>[t_dim_usn]</parent-name>
+        <remote-alias>ne_name</remote-alias>
+        <ordinal>76</ordinal>
+        <local-type>string</local-type>
+        <aggregation>Count</aggregation>
+        <width>64</width>
+        <contains-null>true</contains-null>
+        <collation flag='0' name='LEN_RUS' />
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+          <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>rec_islive</remote-name>
+        <remote-type>130</remote-type>
+        <local-name>[rec_islive]</local-name>
+        <parent-name>[t_dim_usn]</parent-name>
+        <remote-alias>rec_islive</remote-alias>
+        <ordinal>77</ordinal>
+        <local-type>string</local-type>
+        <aggregation>Count</aggregation>
+        <width>8</width>
+        <contains-null>true</contains-null>
+        <collation flag='0' name='LEN_RUS' />
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+          <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>dim_start_date</remote-name>
+        <remote-type>7</remote-type>
+        <local-name>[dim_start_date]</local-name>
+        <parent-name>[t_dim_usn]</parent-name>
+        <remote-alias>dim_start_date</remote-alias>
+        <ordinal>78</ordinal>
+        <local-type>datetime</local-type>
+        <aggregation>Year</aggregation>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_TIMESTAMP&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_TIMESTAMP&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>dim_end_date</remote-name>
+        <remote-type>7</remote-type>
+        <local-name>[dim_end_date]</local-name>
+        <parent-name>[t_dim_usn]</parent-name>
+        <remote-alias>dim_end_date</remote-alias>
+        <ordinal>79</ordinal>
+        <local-type>datetime</local-type>
+        <aggregation>Year</aggregation>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_TIMESTAMP&quot;</attribute>
+          <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_TIMESTAMP&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+    </metadata-records>
+  </connection>
+  <aliases enabled='yes' />
+  <_.fcp.ObjectModelTableType.true...column caption='t_f60_usn_m117496914' datatype='table' name='[__tableau_internal_object_id__].[t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF]' role='measure' type='quantitative' />
+  <column caption='Begintime' datatype='datetime' name='[begintime]' role='dimension' type='ordinal' />
+  <column caption='C117480513' datatype='integer' name='[c117480513]' role='measure' type='quantitative' />
+  <column caption='C117480514' datatype='integer' name='[c117480514]' role='measure' type='quantitative' />
+  <column caption='C117480515' datatype='integer' name='[c117480515]' role='measure' type='quantitative' />
+  <column caption='C117480516' datatype='integer' name='[c117480516]' role='measure' type='quantitative' />
+  <column caption='C117480517' datatype='integer' name='[c117480517]' role='measure' type='quantitative' />
+  <column caption='C117480518' datatype='integer' name='[c117480518]' role='measure' type='quantitative' />
+  <column caption='C117480519' datatype='integer' name='[c117480519]' role='measure' type='quantitative' />
+  <column caption='C117480520' datatype='integer' name='[c117480520]' role='measure' type='quantitative' />
+  <column caption='C117480521' datatype='integer' name='[c117480521]' role='measure' type='quantitative' />
+  <column caption='C117480522' datatype='integer' name='[c117480522]' role='measure' type='quantitative' />
+  <column caption='C117480523' datatype='integer' name='[c117480523]' role='measure' type='quantitative' />
+  <column caption='C117480524' datatype='integer' name='[c117480524]' role='measure' type='quantitative' />
+  <column caption='C117480525' datatype='integer' name='[c117480525]' role='measure' type='quantitative' />
+  <column caption='C117480526' datatype='integer' name='[c117480526]' role='measure' type='quantitative' />
+  <column caption='C117480527' datatype='integer' name='[c117480527]' role='measure' type='quantitative' />
+  <column caption='C117480528' datatype='integer' name='[c117480528]' role='measure' type='quantitative' />
+  <column caption='C117480529' datatype='integer' name='[c117480529]' role='measure' type='quantitative' />
+  <column caption='C117480530' datatype='integer' name='[c117480530]' role='measure' type='quantitative' />
+  <column caption='C117480531' datatype='integer' name='[c117480531]' role='measure' type='quantitative' />
+  <column caption='C117480532' datatype='integer' name='[c117480532]' role='measure' type='quantitative' />
+  <column caption='C117480533' datatype='integer' name='[c117480533]' role='measure' type='quantitative' />
+  <column caption='C117480534' datatype='integer' name='[c117480534]' role='measure' type='quantitative' />
+  <column caption='C117480535' datatype='integer' name='[c117480535]' role='measure' type='quantitative' />
+  <column caption='C117480536' datatype='integer' name='[c117480536]' role='measure' type='quantitative' />
+  <column caption='C117480537' datatype='integer' name='[c117480537]' role='measure' type='quantitative' />
+  <column caption='C117480538' datatype='integer' name='[c117480538]' role='measure' type='quantitative' />
+  <column caption='C117480539' datatype='integer' name='[c117480539]' role='measure' type='quantitative' />
+  <column caption='C117480540' datatype='integer' name='[c117480540]' role='measure' type='quantitative' />
+  <column caption='C117480541' datatype='integer' name='[c117480541]' role='measure' type='quantitative' />
+  <column caption='C117480542' datatype='integer' name='[c117480542]' role='measure' type='quantitative' />
+  <column caption='C117480543' datatype='integer' name='[c117480543]' role='measure' type='quantitative' />
+  <column caption='C117480544' datatype='integer' name='[c117480544]' role='measure' type='quantitative' />
+  <column caption='C117480545' datatype='integer' name='[c117480545]' role='measure' type='quantitative' />
+  <column caption='C117480546' datatype='integer' name='[c117480546]' role='measure' type='quantitative' />
+  <column caption='C117480547' datatype='integer' name='[c117480547]' role='measure' type='quantitative' />
+  <column caption='C117480548' datatype='integer' name='[c117480548]' role='measure' type='quantitative' />
+  <column caption='C117480549' datatype='integer' name='[c117480549]' role='measure' type='quantitative' />
+  <column caption='C117480550' datatype='integer' name='[c117480550]' role='measure' type='quantitative' />
+  <column caption='C117480551' datatype='integer' name='[c117480551]' role='measure' type='quantitative' />
+  <column caption='C117480552' datatype='integer' name='[c117480552]' role='measure' type='quantitative' />
+  <column caption='C117480553' datatype='integer' name='[c117480553]' role='measure' type='quantitative' />
+  <column caption='C117480554' datatype='integer' name='[c117480554]' role='measure' type='quantitative' />
+  <column caption='C117480555' datatype='integer' name='[c117480555]' role='measure' type='quantitative' />
+  <column caption='C117480556' datatype='integer' name='[c117480556]' role='measure' type='quantitative' />
+  <column caption='C117480557' datatype='integer' name='[c117480557]' role='measure' type='quantitative' />
+  <column caption='C117480558' datatype='integer' name='[c117480558]' role='measure' type='quantitative' />
+  <column caption='C117480559' datatype='integer' name='[c117480559]' role='measure' type='quantitative' />
+  <column caption='C117480560' datatype='integer' name='[c117480560]' role='measure' type='quantitative' />
+  <column caption='C117480561' datatype='integer' name='[c117480561]' role='measure' type='quantitative' />
+  <column caption='C117480562' datatype='integer' name='[c117480562]' role='measure' type='quantitative' />
+  <column caption='C117480563' datatype='integer' name='[c117480563]' role='measure' type='quantitative' />
+  <column caption='C117480566' datatype='integer' name='[c117480566]' role='measure' type='quantitative' />
+  <column caption='C117490664' datatype='integer' name='[c117490664]' role='measure' type='quantitative' />
+  <column caption='C117490665' datatype='integer' name='[c117490665]' role='measure' type='quantitative' />
+  <column caption='Date Id' datatype='datetime' name='[date_id]' role='dimension' type='ordinal' />
+  <column caption='Date Key' datatype='integer' name='[date_key]' role='dimension' type='ordinal' />
+  <column caption='Day' datatype='integer' name='[day]' role='dimension' type='quantitative' />
+  <column caption='Dim End Date' datatype='datetime' name='[dim_end_date]' role='dimension' type='ordinal' />
+  <column caption='Dim Start Date' datatype='datetime' name='[dim_start_date]' role='dimension' type='ordinal' />
+  <column caption='Duration' datatype='integer' name='[duration]' role='measure' type='quantitative' />
+  <column caption='Holiday' datatype='string' name='[holiday]' role='dimension' type='nominal' />
+  <column caption='Hour' datatype='integer' name='[hour]' role='measure' type='quantitative' />
+  <column caption='Inserttime' datatype='datetime' name='[inserttime]' role='dimension' type='ordinal' />
+  <column caption='Measobjldn' datatype='string' name='[measobjldn]' role='dimension' type='nominal' />
+  <column caption='Month' datatype='integer' name='[month]' role='dimension' type='quantitative' />
+  <column caption='Ne Name' datatype='string' name='[ne_name]' role='dimension' type='nominal' />
+  <column caption='Ne Sys Id (T Dim Usn)' datatype='integer' name='[ne_sys_id (t_dim_usn)]' role='dimension' type='ordinal' />
+  <column caption='Ne Sys Id' datatype='integer' name='[ne_sys_id]' role='dimension' type='ordinal' />
+  <column caption='Rec Islive' datatype='string' name='[rec_islive]' role='dimension' type='nominal' />
+  <column caption='Time Id (T Dim Mdatetime)' datatype='datetime' name='[time_id (t_dim_mdatetime)]' role='dimension' type='ordinal' />
+  <column caption='Time Id' datatype='datetime' name='[time_id]' role='dimension' type='ordinal' />
+  <column caption='Time Key' datatype='integer' name='[time_key]' role='dimension' type='ordinal' />
+  <column caption='Userlabel' datatype='string' name='[userlabel]' role='dimension' type='nominal' />
+  <column caption='Week Of Year' datatype='string' name='[week_of_year]' role='dimension' type='nominal' />
+  <column caption='Weekday' datatype='integer' name='[weekday]' role='measure' type='quantitative' />
+  <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+  <group caption='Set 1' name='[Set 1]' name-style='unqualified' user:ui-builder='filter-group'>
+    <groupfilter expression='if [Parameters].[Include Today] = &apos;No&apos; then&#13;&#10;    case [Parameters].[Parameter 2]&#13;&#10;        WHEN &quot;last 2 day&quot; then [begintime]&lt; DATETRUNC(&apos;day&apos;, TODAY()) AND [begintime] &gt;= DATEADD(&apos;day&apos;, -2, DATETRUNC(&apos;day&apos;, TODAY()))&#13;&#10;&#9;WHEN &quot;last 3 day&quot; then [begintime]&lt; DATETRUNC(&apos;day&apos;, TODAY()) AND [begintime] &gt;= DATEADD(&apos;day&apos;, -3, DATETRUNC(&apos;day&apos;, TODAY()))&#13;&#10;&#9;END&#13;&#10;END' function='filter' user:ui-marker='filter-by'>
+      <groupfilter function='level-members' level='[begintime]' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-manual-selection-is-empty='true' user:ui-marker='enumerate' />
+    </groupfilter>
+  </group>
+  <group caption='Set 2' name='[Set 2]' name-style='unqualified' user:ui-builder='filter-group'>
+    <groupfilter expression='if [Parameters].[Include Today] = &apos;No&apos; then&#13;&#10;    case [Parameters].[Parameter 2]&#13;&#10;        WHEN &quot;last 2 day&quot; then [begintime]&lt; DATETRUNC(&apos;day&apos;, TODAY()) AND [begintime] &gt;= DATEADD(&apos;day&apos;, -2, DATETRUNC(&apos;day&apos;, TODAY()))&#13;&#10;&#9;WHEN &quot;last 3 day&quot; then [begintime]&lt; DATETRUNC(&apos;day&apos;, TODAY()) AND [begintime] &gt;= DATEADD(&apos;day&apos;, -3, DATETRUNC(&apos;day&apos;, TODAY()))&#13;&#10;&#9;END&#13;&#10;END' function='filter' user:ui-marker='filter-by'>
+      <groupfilter function='level-members' level='[begintime]' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-manual-selection-is-empty='true' user:ui-marker='enumerate' />
+    </groupfilter>
+  </group>
+  <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+  <semantic-values>
+    <semantic-value key='[Country].[Name]' value='&quot;Hong Kong&quot;' />
+  </semantic-values>
+  <datasource-dependencies datasource='Parameters'>
+    <column caption='Include Today' datatype='string' name='[Include Today]' param-domain-type='list' role='measure' type='nominal' value='&quot;No&quot;'>
+      <calculation class='tableau' formula='&quot;No&quot;' />
+      <members>
+        <member value='&quot;No&quot;' />
+        <member value='&quot;Yes&quot;' />
+      </members>
+    </column>
+    <column caption='Day option' datatype='string' name='[Parameter 2]' param-domain-type='list' role='measure' type='nominal' value='&quot;last 3 day&quot;'>
+      <calculation class='tableau' formula='&quot;last 3 day&quot;' />
+      <members>
+        <member value='&quot;last 2 day&quot;' />
+        <member value='&quot;last 3 day&quot;' />
+      </members>
+    </column>
+	  <column caption='Year Parameter' datatype='integer' name='[Year Parameter]' param-domain-type='range' role='measure' type='quantitative' value='2017'>
+        <calculation class='tableau' formula='2017' />
+        <range />
+      </column>
+  </datasource-dependencies>
+  <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    <objects>
+      <object caption='t_f60_usn_m117496914' id='t_f60_usn_m117496914 (pms.t_f60_usn_m117496914)_D819F49628324804A9062D583E473FCF'>
+        <properties context=''>
+          <relation join='inner' type='join'>
+            <clause type='join'>
+              <expression op='='>
+                <expression op='[t_f60_usn_m117496914].[ne_sys_id]' />
+                <expression op='[t_dim_usn].[ne_sys_id]' />
+              </expression>
+            </clause>
+            <relation join='inner' type='join'>
+              <clause type='join'>
+                <expression op='='>
+                  <expression op='[t_f60_usn_m117496914].[time_id]' />
+                  <expression op='[t_dim_mdatetime].[time_id]' />
+                </expression>
+              </clause>
+              <relation connection='postgres.03xpz1e0mf820511ife4b1sg5i5d' name='t_f60_usn_m117496914' table='[pms].[t_f60_usn_m117496914]' type='table' />
+              <relation connection='postgres.03xpz1e0mf820511ife4b1sg5i5d' name='t_dim_mdatetime' table='[pms].[t_dim_mdatetime]' type='table' />
+            </relation>
+            <relation connection='postgres.03xpz1e0mf820511ife4b1sg5i5d' name='t_dim_usn' table='[pms].[t_dim_usn]' type='table' />
+          </relation>
+        </properties>
+      </object>
+    </objects>
+  </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+</datasource>

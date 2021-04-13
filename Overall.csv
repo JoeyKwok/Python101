@@ -1,0 +1,342 @@
+Alert No,Timeframe,NE Type,Alarm Category
+CM200,second 15 mins,3G,RAN
+CM201,second 15 mins,3G,RAN
+CM203,second 15 mins,2G,RAN
+CM204,second 15 mins,4G,RAN
+ON001,second 15 mins,4G,RAN
+ON002,second 15 mins,RUCKUS,WiFi
+ON003,second 15 mins,RUCKUS,WiFi
+ON004,second 15 mins,RUCKUS,WiFi
+ON005,second 15 mins,RNC,RNC
+ON006,second 15 mins,RNC,RNC
+ON007,second 15 mins,RNC,RNC
+ON008,second 15 mins,RNC,RNC
+ON009,second 15 mins,4G CELL,WNPD
+ON010,second 15 mins,4G CELL,WNPD
+ON011,second 15 mins,4G CELL,WNPD
+ON012,second 15 mins,3G CELL,WNPD
+ON013,second 15 mins,3G CELL,WNPD
+ON014,second 15 mins,4G CELL,WNPD
+ON015,second 15 mins,RNC,WNPD
+ON016,second 15 mins,MTR,WNPD
+ON017,second 15 mins,4G CELL,WNPD
+ON019,second 15 mins,4G CELL,WNPD
+ON020,second 15 mins,4G CELL,WNPD
+ON021,second 15 mins,4G CELL,WNPD
+ON022,second 15 mins,4G CELL,WNPD
+ON023,Latest Hour,4G CELL,WNPD
+ON024,Latest 2 15 mins,4G CELL,WNPD
+ON025,Latest Hour,4G CELL,WNPD
+ON026,Latest 2 15 mins,CDMABTS,WNPD
+ON027,Latest 2 15 mins,CDMABTS,WNPD
+ON028,Latest 2 15 mins,4G CELL,WNPD
+ON029,Latest 2 15 mins,4G,WNPD
+ON030,second 15 mins,4G,WNPD
+ON031,third 15 mins,4G,WNPD
+ON032,Last 2 hours,4G,WNPD
+ON033,Yesterday,4G,WNPD
+ON100,last 15 mins(PA alert),4G,WNPD
+ON101,last 15 mins(PA alert),4G,WNPD
+ON102,last 15 mins(PA alert),4G CELL,WNPD
+ON103,last 15 mins(PA alert),4G CELL,WNPD
+ON104,last 15 mins(PA alert),4G CELL,WNPD
+ON105,last 15 mins(PA alert),4G CELL,WNPD
+ON106,last 15 mins(PA alert),4G CELL,WNPD
+ON107,last 15 mins(PA alert),4G CELL,WNPD
+ON108,last 15 mins(PA alert),4G CELL,WNPD
+ON109,last 15 mins(PA alert),4G CELL,WNPD
+ON110,last 15 mins(PA alert),4G CELL,WNPD
+ON111,last 15 mins(PA alert),4G CELL,WNPD
+ON112,last 15 mins(PA alert),4G CELL,WNPD
+ON113,last 15 mins(PA alert),4G CELL,WNPD
+ON114,last 15 mins(PA alert),WiFi,WNPD
+ON115,last 15 mins(PA alert),WiFi,WNPD
+ON116,last 15 mins(PA alert),MTR,WNPD
+ON117,last 15 mins(PA alert),WiFi,WNPD
+ON118,last 15 mins(PA alert),WiFi,WNPD
+ON119,last 15 mins(PA alert),WiFi,WNPD
+ON120,last 15 mins(PA alert),RAN,WNPD
+ON121,Last hour,RAN,WNPD
+ON122,last 15 mins(PA alert),RAN,WNPD
+ON123,last 15 mins(PA alert),eMSC,CS Core
+ON124,last 15 mins(PA alert),eMSC,CS Core
+ON125,last 15 mins(PA alert),eMSC,CS Core
+ON126,same day last week of last 2nd 5 mins,eMSC,CS Core
+ON127,last 15 mins(PA alert),UGW,UGW
+ON128,last 15 mins(PA alert),UGW,UGW
+ON129,last 15 mins(PA alert),UGW,UGW
+ON130,last 15 mins(PA alert),UGW,UGW
+ON131,last 15 mins(PA alert),UGW,UGW
+ON132,last 15 mins(PA alert),IMS,IMS
+ON133,last 15 mins(PA alert),MSC,MSC
+ON134,last 15 mins(PA alert),Node,RAN
+ON135,last 15 mins(PA alert),Link,IPBB
+ON136,last 15 mins(PA alert),Agent,BO Agent
+ON137,last 15 mins(PA alert),3G,RAN
+ON138,last 15 mins(PA alert),IoTvUGW,IoT
+ON139,last 15 mins(PA alert),IoTvUGW,IoT
+ON140,last 15 mins(PA alert),IoTvUGW,IoT
+ON200,last 15 mins(PA alert),IoTvUGW,IoT
+ON201,last 15 mins(PA alert),IoTvUGW,IoT
+ON202,last 15 mins(PA alert),IoTvUGW,IoT
+ON203,last 15 mins(PA alert),IoTvUGW,IoT
+ON204,last 15 mins(PA alert),IoTvUGW,IoT
+ON205,last 15 mins(PA alert),IoTvUGW,IoT
+ON206,last hour,IoTvUGW,IoT
+ON207,last 15 mins(PA alert),IoT-vUSN,IoT
+ON208,last 15 mins(PA alert),IoT-vUSN,IoT
+ON209,last 15 mins(PA alert),IoT-vUSN,IoT
+ON210,last 15 mins(PA alert),IoT-vUSN,IoT
+ON211,last 15 mins(PA alert),IoT-vUSN,IoT
+ON212,Yesterday,IoT-vUSN,IoT
+ON213,Yesterday,IoT-vUSN,IoT
+ON214,last 15 mins(PA alert),MTR,
+ON215,last 15 mins(PA alert),MTR,
+ON216,last 15 mins(PA alert),MTR,
+ON217,last 15 mins(PA alert),MTR,
+ON218,last 15 mins(PA alert),LTE,LTESite
+ON219,Lastest hour,LTE,LTECell
+ON246,second 15 mins,3GCELL,RAN
+ON247,second 15 mins,3GCELL,RAN
+ON248,second 15 mins,3GCELL,RAN
+ON249,latest 2 15 mins,3GCELL,RAN
+ON250,latest 2 15 mins,3GCELL,RAN
+ON251,latest 2 15 mins,NODEB,RAN
+ON252,latest 2 15 mins,UDG,5G NSA
+ON253,second 15 mins,UGW,5G NSA
+ON254,last hour,UDG,5G NSA
+ON255,last hour,UDG,5G NSA
+ON260,second 15 mins,UDG,5GNSA
+ON261,second 15 mins,UDG,5G NSA
+ON262,Latest Hour,UGW,5G NSA
+ON263,Latest 2 15 mins,UGW,5G NSA
+ON264,Latest Hour,APN,5G NSA
+ON300,last 15 mins(PA alert),USN,5G NSA
+ON301,last 15 mins(PA alert),USN,5G NSA
+ON400,last hour(hourly alert),USN,5G NSA
+ON401,last hour(hourly alert),USN,5G NSA
+ON402,last hour(hourly alert),USN,5G NSA
+ON403,last hour(hourly alert),,5G NSA
+ON404,last hour(hourly alert),,5G NSA
+ON405,last hour(hourly alert),,5G NSA
+ON406,last hour(hourly alert),UGW,5G NSA
+ON500,last hour(hourly alert),UGW,5G NSA
+ON501,last 15 mins(PA alert),UGW,5G NSA
+ON502,last 15 mins(PA alert),UGW,5G NSA
+ON503,last 15 mins(PA alert),,
+ON504,last 15 mins(PA alert),,
+ON505,last 15 mins(PA alert),,
+ON506,last 15 mins(PA alert),SPS,CS Core
+ON507,last 15 mins(PA alert),SPS,CS Core
+ON508,last 15 mins(PA alert),SPS,CS Core
+ON509,last 15 mins(PA alert),SPS,CS Core
+ON510,last 15 mins(PA alert),SPS,CS Core
+ON511,last 15 mins(PA alert),SPS,CS Core
+ON512,lastest hour,SPS,CS Core
+ON531,Yesterday,SPS,CS Core
+ON532,last 15 mins(PA alert),SPS,CS Core
+ON534,last 15 mins(PA alert),SPS,CS Core
+ON600,last 15 mins(PA alert),SPS,CS Core
+ON601,last 15 mins(PA alert),SPS,CS Core
+ON602,last 15 mins(PA alert),SPS,CS Core
+ON603,last 15 mins(PA alert),SPS,CS Core
+ON604,last 15 mins(PA alert),SPS,CS Core
+ON605,last 15 mins(PA alert),SPS,CS Core
+ON606,last 15 mins(PA alert),SPS,CS Core
+ON607,last 15 mins(PA alert),SPS,CS Core
+ON608,last 15 mins(PA alert),DNS,CS Core
+ON609,last 15 mins(PA alert),DNS,CS Core
+ON612,last 15 mins(PA alert),IMS,CS Core
+ON613,last 15 mins(PA alert),IMS,CS Core
+ON614,last 15 mins(PA alert),IMS,CS Core
+ON615,last 15 mins(PA alert),IMS,CS Core
+ON616,last 15 mins(PA alert),IMS,CS Core
+ON700,last 15 mins(PA alert),IMS,CS Core
+ON701,last 15 mins(PA alert),IMS,CS Core
+ON702,last 15 mins(PA alert),IMS,CS Core
+ON703,last 15 mins(PA alert),IMS,CS Core
+ON704,last 15 mins(PA alert),IMS,CS Core
+ON705,last 15 mins(PA alert),IMS,CS Core
+ON706,last 15 mins(PA alert),IMS,CS Core
+ON707,last 15 mins(PA alert),SBC,SBC
+ON708,last 15 mins(PA alert),HSS,CS Core
+ON709,latest hour,eMSC,CS Core
+ON710,last 15 mins(PA alert),HSS,CS Core
+ON711,last 15 mins(PA alert),HSS,CS Core
+ON712,last 15 mins(PA alert),HSS,CS Core
+ON713,last 15 mins(PA alert),HSS,CS Core
+ON714,last 15 mins(PA alert),HSS,CS Core
+ON715,last 15 mins(PA alert),HSS,CS Core
+ON716,last 15 mins(PA alert),HSS,CS Core
+ON717,last 15 mins(PA alert),HSS,CS Core
+ON718,last 15 mins(PA alert),HSS,CS Core
+ON719,last 15 mins(PA alert),HSS,CS Core
+ON720,last 15 mins(PA alert),HSS,CS Core
+ON721,last 15 mins(PA alert),HSS,CS Core
+ON722,last 15 mins(PA alert),HSS,CS Core
+ON723,last 15 mins(PA alert),HSS,CS Core
+ON724,last 15 mins(PA alert),HSS,CS Core
+ON725,last 15 mins(PA alert),HSS,CS Core
+ON726,last 15 mins(PA alert),HSS,CS Core
+ON727,last 15 mins(PA alert),HSS,CS Core
+ON728,last 15 mins(PA alert),HSS,CS Core
+ON729,last hour,HSS,CS Core
+ON730,last 15 mins(PA alert),HSS,CS Core
+ON731,last 15 mins(PA alert),HSS,CS Core
+ON732,last 15 mins(PA alert),HSS,CS Core
+ON733,last 15 mins(PA alert),HSS,CS Core
+ON734,last 15 mins(PA alert),HSS,CS Core
+ON735,last 15 mins(PA alert),HSS,CS Core
+ON736,last 15 mins(PA alert),HSS,CS Core
+ON737,last 15 mins(PA alert),HSS,CS Core
+ON738,last 15 mins(PA alert),HSS,CS Core
+ON739,last 15 mins(PA alert),HSS,CS Core
+ON740,last 15 mins(PA alert),HSS,CS Core
+ON741,last 15 mins(PA alert),HSS,CS Core
+ON742,last 15 mins(PA alert),HSS,CS Core
+ON743,last 15 mins(PA alert),HSS,CS Core
+ON744,last 15 mins(PA alert),HSS,CS Core
+ON745,last 15 mins(PA alert),HSS,CS Core
+ON746,last 15 mins(PA alert),HSS,CS Core
+ON747,last 15 mins(PA alert),HSS,CS Core
+ON748,last 15 mins(PA alert),HSS,CS Core
+ON749,last 15 mins(PA alert),HSS,CS Core
+ON750,last 15 mins(PA alert),eMSC,CS Core
+ON751,last 15 mins(PA alert),eMSC,CS Core
+ON752,last 15 mins(PA alert),eMSC,CS Core
+ON753,third 15 mins,eMSC,CS Core
+ON754,last 15 mins(PA alert),eMSC,CS Core
+ON755,latest hour,eMSC,CS Core
+ON756,last 15 mins(PA alert),eMSC,CS Core
+ON757,last 15 mins(PA alert),eMSC,CS Core
+ON758,last hour,eMSC,CS Core
+ON759,last hour,eMSC,CS Core
+ON800,last 15 mins(PA alert),eMSC,CS Core
+IT101,Yesterday,eMSC,CS Core
+IT102,Yesterday,eMSC,CS Core
+IT103,Yesterday,eMSC,CS Core
+IT104,Yesterday,eMSC,CS Core
+IT105,Yesterday,eMSC,CS Core
+IT106,Yesterday,eMSC,CS Core
+IT107,Yesterday,eMSC,CS Core
+IT108,Yesterday,eMSC,CS Core
+IT201,Yesterday,trunk group,eMSC
+IT202,Yesterday,IMS,CS Core
+IT301,Yesterday,IMS,CS Core
+IT302,Yesterday,IMS,CS Core
+IT303,Yesterday,IMS,CS Core
+IT304,Yesterday,IMS,CS Core
+IT305,Yesterday,IMS,CS Core
+IT306,Yesterday,IMS,CS Core
+IT307,Yesterday,IMS,CS Core
+VM007,Yesterday,IMS,CS Core
+VM008,Yesterday,ATS,IMS
+VM009,Yesterday,ATS,IMS
+VM010,Yesterday,MGW,CS Core
+VM011,Yesterday,MGW,CS Core
+VM012,Yesterday,MGW,CS Core
+VM014,Yesterday,MGW,CS Core
+VM015,Yesterday,MGW,CS Core
+VM016,Yesterday,CG,PS CORE
+VM017,Yesterday,CG,PS CORE
+VM018,Yesterday,CG,PS CORE
+VM019,Yesterday,CG,PS CORE
+VM020,Yesterday,CG,PS CORE
+VM021,Yesterday,CG,PS CORE
+VM022,Yesterday,CG,PS CORE
+VM023,Yesterday,UGW,PS CORE
+VM024,Yesterday,UGW,PS CORE
+VM025,Yesterday,UGW,PS CORE
+VM026,Yesterday,UGW,PS CORE
+VM027,Yesterday,UGW,PS CORE
+VM028,Yesterday,UGW,PS CORE
+VM029,Yesterday,UGW,PS CORE
+VM030,Yesterday,UGW,PS CORE
+VM031,Yesterday,UGW,PS CORE
+VM032,Yesterday,UGW,PS CORE
+VM033,Yesterday,UGW,PS CORE
+VM034,Yesterday,UGW,PS CORE
+VM035,Yesterday,UGW,PS CORE
+VM036,Yesterday,APN,UGW
+VM037,Yesterday,APN,UGW
+VM038,Yesterday,APN,UGW
+VM039,Yesterday,UPCC,PS CORE
+VM040,Yesterday,UPCC,PS CORE
+ZS526,Yesterday,UPCC,PS CORE
+ZS510,Yesterday,UPCC,PS CORE
+ZS508,Yesterday,UPCC,PS CORE
+SW001,last hour,UPCC,PS CORE
+SW002,last hour,UPCC,PS CORE
+AN0001,yesterday,UPCC,PS CORE
+AN0002,yesterday,UPCC,PS CORE
+AN0003,yesterday,UPCC,PS CORE
+AN0004,yesterday,UPCC,PS CORE
+AN0005,yesterday,UPCC,PS CORE
+AN0006,yesterday,UPCC,PS CORE
+AN0007,yesterday,UPCC,PS CORE
+AN0008,yesterday,UPCC,PS CORE
+AN0009,yesterday,UPCC,PS CORE
+AN0010,yesterday,UPCC,PS CORE
+AN0011,yesterday,2GUSN,PS CORE
+AN0012,yesterday,2GUSN,PS CORE
+CA1501,yesterday,2GUSN,PS CORE
+CA1502,yesterday,2GUSN,PS CORE
+CA1509,yesterday,2GUSN,PS CORE
+CA1510,last 3 days,2GUSN,PS CORE
+CA1511,yesterday,2GUSN,PS CORE
+CA1515,yesterday,2GUSN,PS CORE
+CA1516,yesterday,2GUSN,PS CORE
+CA1518,yesterday,3GUSN,PS CORE
+CA1519,yesterday,3GUSN,PS CORE
+CA1520,yesterday,3GUSN,PS CORE
+CA1521,last 7 days,3GUSN,PS CORE
+CA1522,yesterday,3GUSN,PS CORE
+CA1523,yesterday,3GUSN,PS CORE
+CA1524,yesterday,3GUSN,PS CORE
+CA1525,yesterday,3GUSN,PS CORE
+CA1527,yesterday,3GUSN,PS CORE
+CA1528,yesterday,3GUSN,PS CORE
+CA1531,yesterday,3GUSN,PS CORE
+CA1533,yesterday,3GUSN,PS CORE
+CA1534,yesterday,3GUSN,PS CORE
+CA1535,yesterday,4GUSN,PS CORE
+CA1536,yesterday,4GUSN,PS CORE
+CA1537,yesterday,4GUSN,PS CORE
+CA1538,yesterday,4GUSN,PS CORE
+CA1539,yesterday,4GUSN,PS CORE
+CA1540,yesterday,4GUSN,PS CORE
+CA1541,yesterday,4GUSN,PS CORE
+CA1542,yesterday,4GUSN,PS CORE
+CA1543,yesterday,4GUSN,PS CORE
+CA1544,yesterday,4GUSN,PS CORE
+CA1545,last 7 days,4GUSN,PS CORE
+CA1546,last 7 days,4GUSN,PS CORE
+CA1547,yesterday,4GUSN,PS CORE
+CA1548,yesterday,4GUSN,PS CORE
+CA2501,yesterday,4GUSN,PS CORE
+CA2515,Yesterday,4GUSN,PS CORE
+CA3501,yesterday,234GUSN,PS CORE
+CA3502,last 2 days,234GUSN,PS CORE
+CA3503,yesterday,234GUSN,PS CORE
+CA3504,yesterday,234GUSN,PS CORE
+CA3505,yesterday,234GUSN,PS CORE
+CA3506,yesterday,234GUSN,PS CORE
+CA4501,yesterday,234GUSN,PS CORE
+CA4502,yesterday,234GUSN,PS CORE
+CA4503,yesterday,234GUSN,PS CORE
+NS001,Last 15-minute(PM Alert),4GUSN,PS CORE
+NS004,Last 30-minute(PM Alert),4GUSN,PS CORE
+NS005,Last 60-minute(PM Alert),4GUSN,PS CORE
+NS006,Last 30-minute(PM Alert),4GUSN,PS CORE
+NS007,Last 15-minute(PM Alert),4GUSN,PS CORE
+NS100,Last Hour(Hourly Alert),4GUSN,PS CORE
+NS102,Last Hour,4GUSN,PS CORE
+NS103,Last Hour,4GUSN,PS CORE
+NS104,Last Hour,4GUSN,PS CORE
+NS105,Last Hour,4GUSN,PS CORE
+NS106,Last Hour,4GUSN,PS CORE
+NS110,Last 15-minutes(PM Alert),SPS,CS Core
+NS111,Last 15-minutes(PM Alert),SPS,CS Core
+NS112,Last 15-minutes(PM Alert),UPCC,UPCC
+NS113,Last 15-minutes(PM Alert),SMS,SMSC
+NS114,Last 15-minutes(PM Alert),MSC,MSC

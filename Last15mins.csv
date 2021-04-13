@@ -1,0 +1,1026 @@
+Domain,NE,Time Granularity,Datasources NameCORE,CG,60,CORE CG 60 M167774000 CDR Receival
+CORE,CG,60,CORE CG 60 M167774001 CDR Processing
+CORE,CG,60,CORE CG 60 M167774002 CDR Preservation
+CORE,CG,60,CORE CG 60 M167774003 CDR Storage Space
+CORE,CG,60,CORE CG 60 M167774004 RG CDR Information Statistics
+CORE,CG,60,CORE CG 60 M167774005 System CDR Information Statistics
+CORE,CG CGPOMU,05,CORE CG CGPOMU 05 M1056974608 CPU Load Measurement
+CORE,CG CGPOMU,05,CORE CG CGPOMU 05 M1056974609 Performance Measurement of Board Memory
+CORE,CG CGPOMU,60,CORE CG CGPOMU 60 M1056974613 Disk Usage Measurement
+CORE,DNS,05,CORE DNS 05 M1728053448 DNS capability measure
+CORE,DNS,15,CORE DNS 15 M1728053448 DNS capability measure
+CORE,DNS,60,CORE DNS 60 M1728053448 DNS capability measure
+CORE,eMSC,05,CORE eMSC 05 M83888083 GSM Subscriber Originated Calls
+CORE,eMSC,05,CORE eMSC 05 M83888084 UTRAN Subscriber Originated Calls
+CORE,eMSC,05,CORE eMSC 05 M83888088 Incoming Calls
+CORE,eMSC,05,CORE eMSC 05 M83888089 Outgoing Calls
+CORE,eMSC,05,CORE eMSC 05 M83888099 GSM Subscriber Terminated Calls
+CORE,eMSC,05,CORE eMSC 05 M83888100 UTRAN Subscriber Terminated Calls
+CORE,eMSC,05,CORE eMSC 05 M83888120 CPU Usage
+CORE,eMSC,05,CORE eMSC 05 M83888188 Call Answer
+CORE,eMSC,05,CORE eMSC 05 M83888190 Call Pre-establishment
+CORE,eMSC,05,CORE eMSC 05 M83888217 Number of VLR Subscribers
+CORE,eMSC,15,CORE eMSC 15 M83888083 GSM Subscriber Originated Calls
+CORE,eMSC,15,CORE eMSC 15 M83888084 UTRAN Subscriber Originated Calls
+CORE,eMSC,15,CORE eMSC 15 M83888087 Intra-MSC Calls
+CORE,eMSC,15,CORE eMSC 15 M83888088 Incoming Calls
+CORE,eMSC,15,CORE eMSC 15 M83888089 Outgoing Calls
+CORE,eMSC,15,CORE eMSC 15 M83888099 GSM Subscriber Terminated Calls
+CORE,eMSC,15,CORE eMSC 15 M83888100 UTRAN Subscriber Terminated Calls
+CORE,eMSC,15,CORE eMSC 15 M83888103 Global Call Failure Causes
+CORE,eMSC,15,CORE eMSC 15 M83888106 Incoming Calls through Trunk Groups
+CORE,eMSC,15,CORE eMSC 15 M83888107 Outgoing Calls through Trunk Groups
+CORE,eMSC,15,CORE eMSC 15 M83888120 CPU Usage
+CORE,eMSC,15,CORE eMSC 15 M83888175 GSM Assignment
+CORE,eMSC,15,CORE eMSC 15 M83888176 WCDMA Assignment
+CORE,eMSC,15,CORE eMSC 15 M83888188 Call Answer
+CORE,eMSC,15,CORE eMSC 15 M83888190 Call Pre-establishment
+CORE,eMSC,15,CORE eMSC 15 M83888192 Location Management Service
+CORE,eMSC,15,CORE eMSC 15 M83888193 Authentication
+CORE,eMSC,15,CORE eMSC 15 M83888198 Paging
+CORE,eMSC,15,CORE eMSC 15 M83888217 Number of VLR Subscribers
+CORE,eMSC,15,CORE eMSC 15 M83888258 Traffic Measurement For LAI
+CORE,eMSC,15,CORE eMSC 15 M83888300 Incoming Traffic in Trunk Office Directions
+CORE,eMSC,15,CORE eMSC 15 M83888301 Outgoing Traffic in Trunk Office Directions
+CORE,eMSC,15,CORE eMSC 15 M83888351 MSC CSSR Traffic
+CORE,eMSC,15,CORE eMSC 15 M83888355 Enhanced Destination Code Traffic
+CORE,eMSC,15,CORE eMSC 15 M83888480 2G eSRVCC Service Measurement
+CORE,eMSC,15,CORE eMSC 15 M83888481 3G eSRVCC Service Measurement
+CORE,eMSC,24,CORE eMSC 24 M83888083 GSM Subscriber Originated Calls
+CORE,eMSC,24,CORE eMSC 24 M83888084 UTRAN Subscriber Originated Calls
+CORE,eMSC,24,CORE eMSC 24 M83888087 Intra-MSC Calls
+CORE,eMSC,24,CORE eMSC 24 M83888088 Incoming Calls
+CORE,eMSC,24,CORE eMSC 24 M83888089 Outgoing Calls
+CORE,eMSC,24,CORE eMSC 24 M83888099 GSM Subscriber Terminated Calls
+CORE,eMSC,24,CORE eMSC 24 M83888100 UTRAN Subscriber Terminated Calls
+CORE,eMSC,24,CORE eMSC 24 M83888103 Global Call Failure Causes
+CORE,eMSC,24,CORE eMSC 24 M83888106 Incoming Calls through Trunk Groups
+CORE,eMSC,24,CORE eMSC 24 M83888107 Outgoing Calls through Trunk Groups
+CORE,eMSC,24,CORE eMSC 24 M83888114 Incoming Calls in Mobile Office Directions
+CORE,eMSC,24,CORE eMSC 24 M83888115 Outgoing Calls in Mobile Office Directions
+CORE,eMSC,24,CORE eMSC 24 M83888121 Traffic over MTP Signaling Links
+CORE,eMSC,24,CORE eMSC 24 M83888122 Traffic over MTP Signaling Link Sets
+CORE,eMSC,24,CORE eMSC 24 M83888163 Traffic over M3UA Signaling Links
+CORE,eMSC,24,CORE eMSC 24 M83888164 Traffic over M3UA Signaling Link Sets
+CORE,eMSC,24,CORE eMSC 24 M83888166 Traffic over M2UA Signaling Links
+CORE,eMSC,24,CORE eMSC 24 M83888183 Traffic over M2UA Link Sets
+CORE,eMSC,24,CORE eMSC 24 M83888188 Call Answer
+CORE,eMSC,24,CORE eMSC 24 M83888190 Call Pre-establishment
+CORE,eMSC,24,CORE eMSC 24 M83888192 Location Management Service
+CORE,eMSC,24,CORE eMSC 24 M83888193 Authentication
+CORE,eMSC,24,CORE eMSC 24 M83888198 Paging
+CORE,eMSC,24,CORE eMSC 24 M83888300 Incoming Traffic in Trunk Office Directions
+CORE,eMSC,24,CORE eMSC 24 M83888301 Outgoing Traffic in Trunk Office Directions
+CORE,eMSC,24,CORE eMSC 24 M83888351 MSC CSSR Traffic
+CORE,eMSC,30,CORE eMSC 30 M83888175 GSM Assignment
+CORE,eMSC,30,CORE eMSC 30 M83888176 WCDMA Assignment
+CORE,eMSC,30,CORE eMSC 30 M83888193 Authentication
+CORE,eMSC,30,CORE eMSC 30 M83888217 Number of VLR Subscribers
+CORE,eMSC,60,CORE eMSC 60 M83888083 GSM Subscriber Originated Calls
+CORE,eMSC,60,CORE eMSC 60 M83888084 UTRAN Subscriber Originated Calls
+CORE,eMSC,60,CORE eMSC 60 M83888087 Intra-MSC Calls
+CORE,eMSC,60,CORE eMSC 60 M83888088 Incoming Calls
+CORE,eMSC,60,CORE eMSC 60 M83888089 Outgoing Calls
+CORE,eMSC,60,CORE eMSC 60 M83888099 GSM Subscriber Terminated Calls
+CORE,eMSC,60,CORE eMSC 60 M83888100 UTRAN Subscriber Terminated Calls
+CORE,eMSC,60,CORE eMSC 60 M83888103 Global Call Failure Causes
+CORE,eMSC,60,CORE eMSC 60 M83888106 Incoming Calls through Trunk Groups
+CORE,eMSC,60,CORE eMSC 60 M83888107 Outgoing Calls through Trunk Groups
+CORE,eMSC,60,CORE eMSC 60 M83888114 Incoming Calls in Mobile Office Directions
+CORE,eMSC,60,CORE eMSC 60 M83888115 Outgoing Calls in Mobile Office Directions
+CORE,eMSC,60,CORE eMSC 60 M83888120 CPU Usage
+CORE,eMSC,60,CORE eMSC 60 M83888121 Traffic over MTP Signaling Links
+CORE,eMSC,60,CORE eMSC 60 M83888122 Traffic over MTP Signaling Link Sets
+CORE,eMSC,60,CORE eMSC 60 M83888148 MAP Standard Operations
+CORE,eMSC,60,CORE eMSC 60 M83888163 Traffic over M3UA Signaling Links
+CORE,eMSC,60,CORE eMSC 60 M83888164 Traffic over M3UA Signaling Link Sets
+CORE,eMSC,60,CORE eMSC 60 M83888166 Traffic over M2UA Signaling Links
+CORE,eMSC,60,CORE eMSC 60 M83888175 GSM Assignment
+CORE,eMSC,60,CORE eMSC 60 M83888176 WCDMA Assignment
+CORE,eMSC,60,CORE eMSC 60 M83888183 Traffic over M2UA Link Sets
+CORE,eMSC,60,CORE eMSC 60 M83888187 GSM Call Drops
+CORE,eMSC,60,CORE eMSC 60 M83888188 Call Answer
+CORE,eMSC,60,CORE eMSC 60 M83888190 Call Pre-establishment
+CORE,eMSC,60,CORE eMSC 60 M83888191 UMTS Call Drops
+CORE,eMSC,60,CORE eMSC 60 M83888192 Location Management Service
+CORE,eMSC,60,CORE eMSC 60 M83888193 Authentication
+CORE,eMSC,60,CORE eMSC 60 M83888194 TMSI Reallocation
+CORE,eMSC,60,CORE eMSC 60 M83888198 Paging
+CORE,eMSC,60,CORE eMSC 60 M83888202 Local MSC Handover
+CORE,eMSC,60,CORE eMSC 60 M83888204 Short Message Service
+CORE,eMSC,60,CORE eMSC 60 M83888209 LCS Service
+CORE,eMSC,60,CORE eMSC 60 M83888214 MSC Basic Services
+CORE,eMSC,60,CORE eMSC 60 M83888217 Number of VLR Subscribers
+CORE,eMSC,60,CORE eMSC 60 M83888218 H.248 MGW Basic Measurement
+CORE,eMSC,60,CORE eMSC 60 M83888220 H.248 MGW Transaction Measurement
+CORE,eMSC,60,CORE eMSC 60 M83888233 CAP Operations
+CORE,eMSC,60,CORE eMSC 60 M83888258 Traffic Measurement For LAI
+CORE,eMSC,60,CORE eMSC 60 M83888267 Supplementary Services Traffic
+CORE,eMSC,60,CORE eMSC 60 M83888275 SCCP Traffic
+CORE,eMSC,60,CORE eMSC 60 M83888276 UTRAN VP Subscriber Originated Calls
+CORE,eMSC,60,CORE eMSC 60 M83888277 UTRAN VP Subscriber Terminated Calls
+CORE,eMSC,60,CORE eMSC 60 M83888296 Traffic over SIP SCTP Links
+CORE,eMSC,60,CORE eMSC 60 M83888297 Traffic over SCTP Links in SIP Office Directions
+CORE,eMSC,60,CORE eMSC 60 M83888300 Incoming Traffic in Trunk Office Directions
+CORE,eMSC,60,CORE eMSC 60 M83888301 Outgoing Traffic in Trunk Office Directions
+CORE,eMSC,60,CORE eMSC 60 M83888326 Traffic over IP Ports
+CORE,eMSC,60,CORE eMSC 60 M83888335 Codec Measurement
+CORE,eMSC,60,CORE eMSC 60 M83888350 SIP Signaling Messages
+CORE,eMSC,60,CORE eMSC 60 M83888351 MSC CSSR Traffic
+CORE,eMSC,60,CORE eMSC 60 M83888354 M3UA Route Measurement
+CORE,eMSC,60,CORE eMSC 60 M83888399 Number of A interface messages measurement
+CORE,eMSC,60,CORE eMSC 60 M83888420 Number of IU interface messages measurement
+CORE,eMSC,60,CORE eMSC 60 M83888424 HSCSD Traffic
+CORE,eMSC,60,CORE eMSC 60 M83888449 SGs Combined RA/LA Update Reject Causes
+CORE,eMSC,60,CORE eMSC 60 M83888455 Traffic over SCTP Links in MME Destination Entities
+CORE,eMSC,60,CORE eMSC 60 M83888457 Standard Operations at SGs Interface
+CORE,eMSC,60,CORE eMSC 60 M83888458 Errors at SGs Interface
+CORE,eMSC,60,CORE eMSC 60 M83888462 Signaling Measurement of Sv Interface
+CORE,eMSC,60,CORE eMSC 60 M83888480 2G eSRVCC Service Measurement
+CORE,eMSC,60,CORE eMSC 60 M83888481 3G eSRVCC Service Measurement
+CORE,eMSC,60,CORE eMSC 60 M83888503 End-to-End IP QoS Measurement
+CORE,eMSC,60,CORE eMSC 60 M83888506 Traffic Measurement of Ethernet Port
+CORE,eMSC,60,CORE eMSC 60 M83888510 License Resource Traffic
+CORE,eMSC,60,CORE eMSC 60 M83888607 MME-Based CSFB Paging Measurement
+CORE,eMSC,60,CORE eMSC 60 M83888608 Traffic Measurement of CSFB Service in Office Direction
+CORE,eMSC,60,CORE eMSC 60 M83888609 LAC-Based CSFB Paging Measurement
+CORE,ePDG,05,CORE ePDG 05 M136316602 ePDG DNS performance measurement
+CORE,ePDG,05,CORE ePDG 05 M136320022 ePDG Wu interface performance measurement
+CORE,ePDG,05,CORE ePDG 05 M136320023 ePDG untrusted session performance measurement
+CORE,ePDG,05,CORE ePDG 05 M136320024 ePDG Forwarding performance measurement
+CORE,ePDG,05,CORE ePDG 05 M136320026 ePDG Basic session measurement
+CORE,ePDG,05,CORE ePDG 05 M136320027 ePDG Wd interface performance measurement
+CORE,ePDG,60,CORE ePDG 60 M134221700 Ipsec tunnel performance measurement
+CORE,ePDG,60,CORE ePDG 60 M136316602 ePDG DNS performance measurement
+CORE,ePDG,60,CORE ePDG 60 M136320022 ePDG Wu interface performance measurement
+CORE,ePDG,60,CORE ePDG 60 M136320023 ePDG untrusted session performance measurement
+CORE,ePDG,60,CORE ePDG 60 M136320024 ePDG Forwarding performance measurement
+CORE,ePDG,60,CORE ePDG 60 M136320026 ePDG Basic session measurement
+CORE,ePDG,60,CORE ePDG 60 M136320027 ePDG Wd interface performance measurement
+CORE,ePDG,60,CORE ePDG 60 M140509188 Diameter AAA performance measurement
+EARTH,iUSN,30,EARTH iUSN 30 M13653022 CPU performance measurement
+EARTH,iUSN,30,EARTH iUSN 30 M13653023 Port performance measurement
+EARTH,iUSN,30,EARTH iUSN 30 M13653024 Memory performance measurement
+EARTH,iUSN,30,EARTH iUSN 30 M13653025 Disk performance measurement
+EARTH,iUSN,30,EARTH iUSN 30 M13653026 VM management performance measurement
+EARTH,iUSN,30,EARTH iUSN 30 M13653027 VM usability
+EARTH,iUSN,30,EARTH iUSN 30 M117440528 GTP bearer
+EARTH,iUSN,30,EARTH iUSN 30 M117440530 GTP message processing
+EARTH,iUSN,30,EARTH iUSN 30 M117490512 S1 interface service
+EARTH,iUSN,30,EARTH iUSN 30 M117490515 Diameter link
+EARTH,iUSN,30,EARTH iUSN 30 M117490516 Diameter link set
+EARTH,iUSN,30,EARTH iUSN 30 M117490517 S6a interface service
+EARTH,iUSN,30,EARTH iUSN 30 M117496524 S1 mode location update with specific Diameter link
+EARTH,iUSN,30,EARTH iUSN 30 M117496525 S1 mode authentication with specific Diameter link
+EARTH,iUSN,30,EARTH iUSN 30 M117496863 Shaping for signaling storms
+EARTH,iUSN,30,EARTH iUSN 30 M117496868 S1 mode UE Capability Info Indication
+EARTH,iUSN,30,EARTH iUSN 30 M117496869 GTPU S11-U interface
+EARTH,iUSN,30,EARTH iUSN 30 M117496870 NB-S1 mode attach
+EARTH,iUSN,30,EARTH iUSN 30 M117496871 NB-S1 mode detach
+EARTH,iUSN,30,EARTH iUSN 30 M117496872 NB-S1 mode intra-MME tracking area update
+EARTH,iUSN,30,EARTH iUSN 30 M117496873 NB-S1 mode inter-MME tracking area update
+EARTH,iUSN,30,EARTH iUSN 30 M117496874 NB-S1 mode paging
+EARTH,iUSN,30,EARTH iUSN 30 M117496875 NB-S1 mode service request
+EARTH,iUSN,30,EARTH iUSN 30 M117496876 NB-S1 mode user resource
+EARTH,iUSN,30,EARTH iUSN 30 M117496877 NB-S1 mode Data over NAS
+EARTH,iUSN,30,EARTH iUSN 30 M117496878 NB-S1 mode bearer resource
+EARTH,iUSN,30,EARTH iUSN 30 M117496879 NB-S1 mode Data over NAS with Specific PLMN
+EARTH,iUSN,30,EARTH iUSN 30 M117496883 NB-S1 mode bearer change between CP CIoT and S1-U Data/UP CIoT
+EARTH,iUSN,30,EARTH iUSN 30 M117496884 NB-S1 mode MME-initiated s1 release
+EARTH,iUSN,30,EARTH iUSN 30 M117496885 NB-S1 mode bearer deactivation
+EARTH,iUSN,30,EARTH iUSN 30 M117496886 NB-S1 mode bearer modification
+EARTH,iUSN,30,EARTH iUSN 30 M117496887 NB-S1 mode PDN connectivity
+EARTH,iUSN,30,EARTH iUSN 30 M117496888 NB-S1 mode PDN disconnection
+EARTH,iUSN,30,EARTH iUSN 30 M117496889 NB-S1 mode APN correction
+EARTH,iUSN,30,EARTH iUSN 30 M117496891 NB-S1 Mode Mobility management Abnormal Signaling Reduction
+EARTH,iUSN,30,EARTH iUSN 30 M117496892 NB-S1 Mode Session Management Abnormal Signaling Reduction
+EARTH,iUSN,30,EARTH iUSN 30 M117496893 NB-S1 Mode Security
+EARTH,iUSN,30,EARTH iUSN 30 M1907953674 OSPF route statistics
+EARTH,iUSN,30,EARTH iUSN 30 M1907953686 Number of packets forwarded by the external communication interface
+EARTH,iUSN,30,EARTH iUSN 30 M1907953687 Number of packets forwarded by the internal communication interface
+EARTH,iUSN,30,EARTH iUSN 30 M1907953688 Number of packets sent and received on the control plane
+EARTH,iUSN,30,EARTH iUSN 30 M1907953689 Number of discarded packets
+EARTH,iUSN,30,EARTH iUSN 30 M1908015360 CSDB Storage Statistics
+EARTH,iUSN,30,EARTH iUSN 30 M1908080702 LB service forwarding statistics
+EARTH,iUSN,30,EARTH iUSN 30 M1908080703 LB service instance forwarding statistics
+EARTH,iUSN,30,EARTH iUSN 30 M1912209416 S1 interface
+EARTH,iUSN,30,EARTH iUSN 30 M1912209427 NB-S1 interface paging
+EARTH,iUSN,30,EARTH iUSN 30 M1912209431 Interface-based statistics for NB-S1 mode DCN reselection
+CORE,NSA UDG,05,CORE NSA UDG 05 M13653022 CPU performance measurement
+CORE,NSA UDG,05,CORE NSA UDG 05 M13653024 Memory performance measurement
+CORE,NSA UDG,05,CORE NSA UDG 05 M1911554242 SGW-C and PGW-C combined Basic session performance measurement
+CORE,NSA UDG,05,CORE NSA UDG 05 M1911554353 Control Plane S11/S4 interface signal performance measurement (continue)
+CORE,NSA UDG,05,CORE NSA UDG 05 M1911619728 SGW-U Forwarding performance measurement
+CORE,NSA UDG,05,CORE NSA UDG 05 M1911619733 PGW-U Forwarding performance measurement
+CORE,NSA UDG,05,CORE NSA UDG 05 M1911619741 PGW-U 2/3G Forwarding performance measurement
+CORE,NSA UDG,05,CORE NSA UDG 05 M1911619757 SGW-U and PGW-U combined Basic session performance measurement
+CORE,NSA UDG,30,CORE NSA UDG 30 M13653023 Port performance measurement
+CORE,NSA UDG,30,CORE NSA UDG 30 M13653025 Disk performance measurement
+CORE,NSA UDG,30,CORE NSA UDG 30 M13653027 VM usability
+CORE,NSA UDG,30,CORE NSA UDG 30 M1908015360 CSDB Storage Statistics
+CORE,NSA UDG,30,CORE NSA UDG 30 M1908015364 CSDB Process Statistics
+CORE,NSA UDG,30,CORE NSA UDG 30 M1908015368 CSDB VM Statistics
+CORE,NSA UDG,30,CORE NSA UDG 30 M1908015372 System resources performance measurement(Scale Group)
+CORE,NSA UDG,30,CORE NSA UDG 30 M1908080702 LB service forwarding statistics
+CORE,NSA UDG,30,CORE NSA UDG 30 M1908080703 LB service instance forwarding statistics
+CORE,NSA UDG,30,CORE NSA UDG 30 M1908080704 LB service process forwarding statistics
+CORE,NSA UDG,30,CORE NSA UDG 30 M1908080705 LB service VM forwarding statistics
+CORE,NSA UDG,30,CORE NSA UDG 30 M1908080706 System resources performance measurement(Scale Group)
+CORE,NSA UDG,30,CORE NSA UDG 30 M1908080707 System resources performance measurement(RU)
+CORE,NSA UDG,30,CORE NSA UDG 30 M1911554207 SGW-C Basic session measurement
+CORE,NSA UDG,30,CORE NSA UDG 30 M1911554210 Control Plane CDR measurement
+CORE,NSA UDG,30,CORE NSA UDG 30 M1911554213 PGW-C Basic session performance measurement
+CORE,NSA UDG,30,CORE NSA UDG 30 M1911554217 PGW-C 2/3G Basic session performance measurement
+CORE,NSA UDG,30,CORE NSA UDG 30 M1911554220 Control Plane AAA performance measurement
+CORE,NSA UDG,30,CORE NSA UDG 30 M1911554226 Control Plane IP address pool performance measurement
+CORE,NSA UDG,30,CORE NSA UDG 30 M1911554227 Control Plane System resources performance measurement(Resource Unit)
+CORE,NSA UDG,30,CORE NSA UDG 30 M1911554229 PGW-C 3G session measurement (specified APN)
+CORE,NSA UDG,30,CORE NSA UDG 30 M1911554230 PGW-C 2G session measurement (specified APN)
+CORE,NSA UDG,30,CORE NSA UDG 30 M1911554231 Control Plane Session status measurement (specified APN)
+CORE,NSA UDG,30,CORE NSA UDG 30 M1911554233 Control Plane AAA performance measurement (specified APN)
+CORE,NSA UDG,30,CORE NSA UDG 30 M1911554237 Control Plane Gx interface performance measurement
+CORE,NSA UDG,30,CORE NSA UDG 30 M1911554239 Control Plane PCC Session Measurement
+CORE,NSA UDG,30,CORE NSA UDG 30 M1911554242 SGW-C and PGW-C combined Basic session performance measurement
+CORE,NSA UDG,30,CORE NSA UDG 30 M1911554244 Control Plane Basic session measurement
+CORE,NSA UDG,30,CORE NSA UDG 30 M1911554249 Control Plane Users number measurement
+CORE,NSA UDG,30,CORE NSA UDG 30 M1911554302 Basic session of VM performance measurement of CGW (specified VM)
+CORE,NSA UDG,30,CORE NSA UDG 30 M1911554401 Control Plane NB-IoT S11 interface signal performance measurement
+CORE,NSA UDG,30,CORE NSA UDG 30 M1911554404 Control Plane System resources performance measurement(Scale Group)
+CORE,NSA UDG,30,CORE NSA UDG 30 M1911619739 User Plane System forwarding performance measurement
+CORE,NSA UDG,30,CORE NSA UDG 30 M1911619741 PGW-U 2/3G Forwarding performance measurement
+CORE,NSA UDG,30,CORE NSA UDG 30 M1911619745 User Plane L7 parser performance measurement
+CORE,NSA UDG,30,CORE NSA UDG 30 M1911619749 User Plane System resources performance measurement(Resource Unit)
+CORE,NSA UDG,30,CORE NSA UDG 30 M1911619751 PGW-U 2/3G Forwarding performance measurement (specified APN)
+CORE,NSA UDG,30,CORE NSA UDG 30 M1911619775 User Plane Sxa interface signal performance measurement
+CORE,NSA UDG,30,CORE NSA UDG 30 M1911619776 User Plane Sxb interface signal performance measurement
+CORE,NSA UDG,30,CORE NSA UDG 30 M1911619777 User Plane Sxa interface error signal performance measure
+CORE,NSA UDG,30,CORE NSA UDG 30 M1911619778 User Plane Sxb interface error signal performance measure
+CORE,NSA UDG,30,CORE NSA UDG 30 M1911619779 User Plane Sxb interface PCC signal performance measurement
+CORE,NSA UDG,30,CORE NSA UDG 30 M1911619802 Forwarding of VM performance measurement of DGW(specified VM)
+CORE,NSA UDG,30,CORE NSA UDG 30 M1911619907 User Plane System resources performance measurement(Scale Group)
+CORE,UGW,05,CORE UGW 05 M134221228 GGSN Basic session performance measurement
+CORE,UGW,05,CORE UGW 05 M134221232 AAA performance measurement
+CORE,UGW,05,CORE UGW 05 M134221235 GTPv1 session measurement (specified APN)
+CORE,UGW,05,CORE UGW 05 M134221237 Session status measurement (specified APN)
+CORE,UGW,05,CORE UGW 05 M134221239 AAA performance measurement (specified APN)
+CORE,UGW,05,CORE UGW 05 M134221244 Forwarding performance measurement (specified APN)
+CORE,UGW,05,CORE UGW 05 M134221246 GW Basic session measurement (specified HPLMN)
+CORE,UGW,05,CORE UGW 05 M134221263 System resources performance measurement(CPU)
+CORE,UGW,05,CORE UGW 05 M134221264 Physical Port performance measurement
+CORE,UGW,05,CORE UGW 05 M134221265 Gx interface performance measurement
+CORE,UGW,05,CORE UGW 05 M134221266 Gx interface performance measurement(specified APN)
+CORE,UGW,05,CORE UGW 05 M134221303 Basic session measurement (specified SPU Instance)
+CORE,UGW,05,CORE UGW 05 M136314880 SGW Forwarding performance measurement
+CORE,UGW,05,CORE UGW 05 M136314881 SGW Forwarding performance measurement (specified APN)
+CORE,UGW,05,CORE UGW 05 M136314905 SGW Basic session measurement(specified APN)
+CORE,UGW,05,CORE UGW 05 M136314925 SGW Basic session measurement
+CORE,UGW,05,CORE UGW 05 M136316005 Gx interface performance measurement(specified PCRF Host)
+CORE,UGW,05,CORE UGW 05 M136316200 AAA performance measurement(AAA)
+CORE,UGW,05,CORE UGW 05 M136320004 TGW Basic session measurement
+CORE,UGW,05,CORE UGW 05 M136320026 ePDG Basic session measurement
+CORE,UGW,05,CORE UGW 05 M136330356 PGW Basic session performance measurement (continue)
+CORE,UGW,05,CORE UGW 05 M138412032 PGW Forwarding performance measurement
+CORE,UGW,05,CORE UGW 05 M138412033 PGW Forwarding performance measurement (specified APN)
+CORE,UGW,05,CORE UGW 05 M138412035 PGW Basic session measurement(specified APN)
+CORE,UGW,05,CORE UGW 05 M138412060 PGW Basic session performance measurement
+CORE,UGW,05,CORE UGW 05 M140509184 System forwarding performance measurement
+CORE,UGW,05,CORE UGW 05 M142606340 S+PGW Basic session performance measurement
+CORE,UGW,05,CORE UGW 05 M1124073492 IP address pool performance measurement
+CORE,UGW,60,CORE UGW 60 M134221228 GGSN Basic session performance measurement
+CORE,UGW,60,CORE UGW 60 M134221229 Forwarding performance measurement
+CORE,UGW,60,CORE UGW 60 M134221230 G-CDR measurement
+CORE,UGW,60,CORE UGW 60 M134221231 Ga interface performance measurement
+CORE,UGW,60,CORE UGW 60 M134221232 AAA performance measurement
+CORE,UGW,60,CORE UGW 60 M134221233 System resources performance measurement(BOARD)
+CORE,UGW,60,CORE UGW 60 M134221234 Ga interface performance measurement (specified CG)
+CORE,UGW,60,CORE UGW 60 M134221235 GTPv1 session measurement (specified APN)
+CORE,UGW,60,CORE UGW 60 M134221236 GTPv0 session measurement (specified APN)
+CORE,UGW,60,CORE UGW 60 M134221237 Session status measurement (specified APN)
+CORE,UGW,60,CORE UGW 60 M134221239 AAA performance measurement (specified APN)
+CORE,UGW,60,CORE UGW 60 M134221240 PPP control plane performance measurement
+CORE,UGW,60,CORE UGW 60 M134221241 L2TP control plane performance measurement
+CORE,UGW,60,CORE UGW 60 M134221243 DHCP performance measurement
+CORE,UGW,60,CORE UGW 60 M134221244 Forwarding performance measurement (specified APN)
+CORE,UGW,60,CORE UGW 60 M134221246 GW Basic session measurement (specified HPLMN)
+CORE,UGW,60,CORE UGW 60 M134221248 GGSN Signaling message error cause measurement
+CORE,UGW,60,CORE UGW 60 M134221249 GGSN Basic session measurement by traffic class
+CORE,UGW,60,CORE UGW 60 M134221250 GGSN Transport performance measurement by traffic class
+CORE,UGW,60,CORE UGW 60 M134221251 GGSN Users number measurement
+CORE,UGW,60,CORE UGW 60 M134221252 GGSN APN session performance by traffic class
+CORE,UGW,60,CORE UGW 60 M134221254 L7 parser performance measurement
+CORE,UGW,60,CORE UGW 60 M134221255 Gy interface performance measurement
+CORE,UGW,60,CORE UGW 60 M134221256 Online charging performance measurement
+CORE,UGW,60,CORE UGW 60 M134221257 MBMS performance measurement
+CORE,UGW,60,CORE UGW 60 M134221258 GGSN Different service of PDP context measurement
+CORE,UGW,60,CORE UGW 60 M134221262 Service resources measurement(CPU)
+CORE,UGW,60,CORE UGW 60 M134221263 System resources performance measurement(CPU)
+CORE,UGW,60,CORE UGW 60 M134221264 Physical Port performance measurement
+CORE,UGW,60,CORE UGW 60 M134221265 Gx interface performance measurement
+CORE,UGW,60,CORE UGW 60 M134221266 Gx interface performance measurement(specified APN)
+CORE,UGW,60,CORE UGW 60 M134221268 PCC Session Measurement
+CORE,UGW,60,CORE UGW 60 M134221269 PCC Session Measurement(specified APN)
+CORE,UGW,60,CORE UGW 60 M134221270 PCC Session Measurement(specified PCRF)
+CORE,UGW,60,CORE UGW 60 M134221301 L2TP control plane performance measurement(specified APN)
+CORE,UGW,60,CORE UGW 60 M134221302 Home Zone performance measurement
+CORE,UGW,60,CORE UGW 60 M134221303 Basic session measurement (specified SPU Instance)
+CORE,UGW,60,CORE UGW 60 M134221304 Forwarding performance measurement (specified SPU Instance)
+CORE,UGW,60,CORE UGW 60 M134221400 Gcf interface performance measurement
+CORE,UGW,60,CORE UGW 60 M134221501 URL redirection performance measurement
+CORE,UGW,60,CORE UGW 60 M134221700 Ipsec tunnel performance measurement
+CORE,UGW,60,CORE UGW 60 M134221702 GRE tunnel performance measurement
+CORE,UGW,60,CORE UGW 60 M134221703 HTTP/HTTPS/RTSP Header Enrichment performance measurement
+CORE,UGW,60,CORE UGW 60 M134221704 BWM performance measurement
+CORE,UGW,60,CORE UGW 60 M136314880 SGW Forwarding performance measurement
+CORE,UGW,60,CORE UGW 60 M136314881 SGW Forwarding performance measurement (specified APN)
+CORE,UGW,60,CORE UGW 60 M136314882 S5/S8(SGW) interface signal performance measure
+CORE,UGW,60,CORE UGW 60 M136314883 S11/S4 interface signal performance measurement
+CORE,UGW,60,CORE UGW 60 M136314886 SGW Users number measurement
+CORE,UGW,60,CORE UGW 60 M136314887 SGW-CDR measurement
+CORE,UGW,60,CORE UGW 60 M136314895 S5/S8(SGW) interface error signal performance measure
+CORE,UGW,60,CORE UGW 60 M136314905 SGW Basic session measurement(specified APN)
+CORE,UGW,60,CORE UGW 60 M136314925 SGW Basic session measurement
+CORE,UGW,60,CORE UGW 60 M136315101 Gy command level result code measurement (specified OCS)
+CORE,UGW,60,CORE UGW 60 M136315102 Gy MSCC level result code measurement (specified OCS)
+CORE,UGW,60,CORE UGW 60 M136315103 Basic session measurement(specified APN)
+CORE,UGW,60,CORE UGW 60 M136315104 Gy performance measurement(specified OCS)
+CORE,UGW,60,CORE UGW 60 M136315300 TCP proxy performance measurement (specified SPU Instance)
+CORE,UGW,60,CORE UGW 60 M136315307 MSE System forwarding performance measurement
+CORE,UGW,60,CORE UGW 60 M136315308 IPSQM performance measurement
+CORE,UGW,60,CORE UGW 60 M136315400 EPSN Basic session measurement
+CORE,UGW,60,CORE UGW 60 M136315410 EPSN Basic session measurement
+CORE,UGW,60,CORE UGW 60 M136315420 EPSN PGW-CDR measurement
+CORE,UGW,60,CORE UGW 60 M136315421 EPSN G-CDR measurement
+CORE,UGW,60,CORE UGW 60 M136315423 EPSN Ga interface performance measurement
+CORE,UGW,60,CORE UGW 60 M136315424 EPSN L7 parser performance measurement
+CORE,UGW,60,CORE UGW 60 M136315425 EPSN HTTP Header Enrichment performance measurement
+CORE,UGW,60,CORE UGW 60 M136315427 EPSN Gy interface performance measurement
+CORE,UGW,60,CORE UGW 60 M136315428 EPSN Online charging performance measurement
+CORE,UGW,60,CORE UGW 60 M136315430 EPSN Gx interface performance measurement
+CORE,UGW,60,CORE UGW 60 M136315432 EPSN BWM performance measurement
+CORE,UGW,60,CORE UGW 60 M136315433 EPSN Gcf interface performance measurement
+CORE,UGW,60,CORE UGW 60 M136316000 S6b interface performance measurement(specified 3GPPAAA)
+CORE,UGW,60,CORE UGW 60 M136316002 VOG Forwarding performance measurement
+CORE,UGW,60,CORE UGW 60 M136316003 VOG Optimization performance measurement
+CORE,UGW,60,CORE UGW 60 M136316004 Diameter Performance measurement(specified DRA)
+CORE,UGW,60,CORE UGW 60 M136316005 Gx interface performance measurement(specified PCRF Host)
+CORE,UGW,60,CORE UGW 60 M136316006 PCC Session Measurement(specified PCRF Host)
+CORE,UGW,60,CORE UGW 60 M136316103 anti-spoofing performance measurement
+CORE,UGW,60,CORE UGW 60 M136316104 EPSN anti-spoofing performance measurement
+CORE,UGW,60,CORE UGW 60 M136316105 Key resources monitor measurement(specified SPU Instance)
+CORE,UGW,60,CORE UGW 60 M136316200 AAA performance measurement(AAA)
+CORE,UGW,60,CORE UGW 60 M136316201 Personal application protection measurement
+CORE,UGW,60,CORE UGW 60 M136316203 NAT measurement
+CORE,UGW,60,CORE UGW 60 M136316205 Inter-chassis session backup measurement
+CORE,UGW,60,CORE UGW 60 M136316900 S11/S4 interface signal performance measurement?continue?
+CORE,UGW,60,CORE UGW 60 M136317200 Basic session measurement (continue)
+CORE,UGW,60,CORE UGW 60 M136320001 TGW Forwarding performance measurement
+CORE,UGW,60,CORE UGW 60 M136320004 TGW Basic session measurement
+CORE,UGW,60,CORE UGW 60 M136320007 TGW WLAN session measurement
+CORE,UGW,60,CORE UGW 60 M136320009 TGW Wa interface performance measurement
+CORE,UGW,60,CORE UGW 60 M136320010 TGW Wap interface performance measurement
+CORE,UGW,60,CORE UGW 60 M136320011 TGW Ga interface performance measurement
+CORE,UGW,60,CORE UGW 60 M136320014 TGW DHCP performance measurement
+CORE,UGW,60,CORE UGW 60 M136320016 TGW ALG performance measurement
+CORE,UGW,60,CORE UGW 60 M136320017 TGW redirection performance measurement
+CORE,UGW,60,CORE UGW 60 M136320018 TGW portal authentication performance measurement
+CORE,UGW,60,CORE UGW 60 M136320019 TGW Wd interface performance measurement
+CORE,UGW,60,CORE UGW 60 M136320022 ePDG Wu interface performance measurement
+CORE,UGW,60,CORE UGW 60 M136320023 ePDG untrusted session performance measurement
+CORE,UGW,60,CORE UGW 60 M136320024 ePDG Forwarding performance measurement
+CORE,UGW,60,CORE UGW 60 M136320026 ePDG Basic session measurement
+CORE,UGW,60,CORE UGW 60 M136320027 ePDG Wd interface performance measurement
+CORE,UGW,60,CORE UGW 60 M136330356 PGW Basic session performance measurement (continue)
+CORE,UGW,60,CORE UGW 60 M138412032 PGW Forwarding performance measurement
+CORE,UGW,60,CORE UGW 60 M138412033 PGW Forwarding performance measurement (specified APN)
+CORE,UGW,60,CORE UGW 60 M138412034 S5/S8/S2a/S2b(PGW) interface signal performance measure
+CORE,UGW,60,CORE UGW 60 M138412035 PGW Basic session measurement(specified APN)
+CORE,UGW,60,CORE UGW 60 M138412038 PGW Users number measurement
+CORE,UGW,60,CORE UGW 60 M138412039 PGW-CDR measurement
+CORE,UGW,60,CORE UGW 60 M138412050 S5/S8/S2a/S2b(PGW) interface error signal performance measure
+CORE,UGW,60,CORE UGW 60 M138412060 PGW Basic session performance measurement
+CORE,UGW,60,CORE UGW 60 M140509184 System forwarding performance measurement
+CORE,UGW,60,CORE UGW 60 M140509185 Basic session measurement
+CORE,UGW,60,CORE UGW 60 M140509186 System forwarding performance measurement(specified APN)
+CORE,UGW,60,CORE UGW 60 M140509187 Users number measurement
+CORE,UGW,60,CORE UGW 60 M140509188 Diameter AAA performance measurement
+CORE,UGW,60,CORE UGW 60 M140509302 GW Basic session measurement (specified VPLMN)
+CORE,UGW,60,CORE UGW 60 M142606340 S+PGW Basic session performance measurement
+CORE,UGW,60,CORE UGW 60 M142606341 S+PGW Basic session performance measurement(specified APN)
+CORE,UGW,60,CORE UGW 60 M142606342 S+PGW Users number measurement
+CORE,UGW,60,CORE UGW 60 M142606343 S+PGW Forwarding performance measurement (specified APN)
+CORE,UGW,60,CORE UGW 60 M1124073472 PDSN Data plane performance measurement
+CORE,UGW,60,CORE UGW 60 M1124073473 PDSN A11 performance measurement
+CORE,UGW,60,CORE UGW 60 M1124073474 PDSN AAA performance measurement
+CORE,UGW,60,CORE UGW 60 M1124073475 PDSN PPP performance measurement
+CORE,UGW,60,CORE UGW 60 M1124073476 PDSN L2TP performance measurement
+CORE,UGW,60,CORE UGW 60 M1124073478 PDSN MIP performance measurement
+CORE,UGW,60,CORE UGW 60 M1124073482 PDSN PMIP service measurement
+CORE,UGW,60,CORE UGW 60 M1124073483 PDSN RSVP performance measurement
+CORE,UGW,60,CORE UGW 60 M1124073484 PDSN Gy interface performance measurement
+CORE,UGW,60,CORE UGW 60 M1124073485 PDSN OCS performance measurement
+CORE,UGW,60,CORE UGW 60 M1124073486 PDSN Session performance measurement
+CORE,UGW,60,CORE UGW 60 M1124073491 PDSN Layer 7 parse performance measurement
+CORE,UGW,60,CORE UGW 60 M1124073492 IP address pool performance measurement
+CORE,UGW,60,CORE UGW 60 M1124074502 PDSN Gx interface performance measurement
+CORE,UGW,60,CORE UGW 60 M1124074505 PDSN HTTP Header Enrichment performance measurement
+CORE,UGW,60,CORE UGW 60 M1130000000 HSGW Data plane performance measurement
+CORE,UGW,60,CORE UGW 60 M1130000001 HSGW Sta interface performance measurement
+CORE,UGW,60,CORE UGW 60 M1130000002 HSGW S2a interface performance measurement
+CORE,UGW,60,CORE UGW 60 M1130000003 HSGW RSVP performance measurement
+CORE,UGW,60,CORE UGW 60 M1130000004 HSGW Session performance measurement
+CORE,UGW,60,CORE UGW 60 M1130000007 HSGW CDR performance measurement
+CORE,UGW,60,CORE UGW 60 M1130000008 HSGW Ga interface performance measurement
+CORE,UGW,60,CORE UGW 60 M1130000009 HSGW Gxa interface performance measurement
+CORE,UGW,60,CORE UGW 60 M1130000010 HSGW DNS performance measurement
+CORE,UIM,15,CORE UIM 15 M1724907531 Diameter Application operation measurement
+CORE,UIM,15,CORE UIM 15 M1724907532 Diameter Base operation measurement
+CORE,UIM,15,CORE UIM 15 M1724907533 IWLAN User Number measurement
+CORE,UIM,15,CORE UIM 15 M1724907535 Diameter Operation Measurement
+CORE,UIM,15,CORE UIM 15 M1724907539 ASR and ASA Measurement
+CORE,UIM,15,CORE UIM 15 M1724908220 DSG SCTP Load Measurement
+CORE,UIM,15,CORE UIM 15 M1724908222 DSG SCTP Message Measurement
+CORE,UIM,60,CORE UIM 60 M1724907531 Diameter Application operation measurement
+CORE,UIM,60,CORE UIM 60 M1724907532 Diameter Base operation measurement
+CORE,UIM,60,CORE UIM 60 M1724907533 IWLAN User Number measurement
+CORE,UIM,60,CORE UIM 60 M1724907535 Diameter Operation Measurement
+CORE,UIM,60,CORE UIM 60 M1724907536 DER and DEA Measurement
+CORE,UIM,60,CORE UIM 60 M1724907537 RAR and RAA Measurement
+CORE,UIM,60,CORE UIM 60 M1724907538 AAR and AAA Measurement
+CORE,UIM,60,CORE UIM 60 M1724907539 ASR and ASA Measurement
+CORE,UIM,60,CORE UIM 60 M1724907540 STR and STA Measurement
+CORE,UIM,60,CORE UIM 60 M1724907541 MAR and MAA Measurement
+CORE,UIM,60,CORE UIM 60 M1724907542 SAR and SAA Measurement
+CORE,UIM,60,CORE UIM 60 M1724907543 PPR and PPA Measurement
+CORE,UIM,60,CORE UIM 60 M1724907544 RTR and RTA Measurement
+CORE,UIM,60,CORE UIM 60 M1724907545 STa Message Measurement
+CORE,UIM,60,CORE UIM 60 M1724907546 SWx Message Measurement
+CORE,UIM,60,CORE UIM 60 M1724907547 S6b Message Measurement
+CORE,UIM,60,CORE UIM 60 M1724907558 Board Resource Measurement
+CORE,UIM,60,CORE UIM 60 M1724907559 Traffic Measurement of Ethernet Port
+CORE,UIM,60,CORE UIM 60 M1724907560 SWm Message Measurement
+CORE,UIM,60,CORE UIM 60 M1724907561 3GPP AAA Session Measurement
+CORE,UIM,60,CORE UIM 60 M1724907562 Broadband Online Subscriber Measurement
+CORE,UIM,60,CORE UIM 60 M1724908220 DSG SCTP Load Measurement
+CORE,UIM,60,CORE UIM 60 M1724908222 DSG SCTP Message Measurement
+CORE,UPCC,05,CORE UPCC 05 M1727208001 Interworking Between PCRF and PCEF
+CORE,UPCC,05,CORE UPCC 05 M1727208005 PPU Flow Control
+CORE,UPCC,05,CORE UPCC 05 M1727208006 SPU Flow Control
+CORE,UPCC,05,CORE UPCC 05 M1727208007 SDU Flow Control
+CORE,UPCC,05,CORE UPCC 05 M1727208008 PCRF Notification Measurement
+CORE,UPCC,05,CORE UPCC 05 M1727208009 PCRF Notification Measurement Based Link
+CORE,UPCC,05,CORE UPCC 05 M1727208014 PPU Diameter Messages Measurement
+CORE,UPCC,05,CORE UPCC 05 M1727208017 Diameter Message Processing Time Measurement
+CORE,UPCC,05,CORE UPCC 05 M1727208018 Module CPU Measurement
+CORE,UPCC,05,CORE UPCC 05 M1727208019 Module Memory Measurement
+CORE,UPCC,05,CORE UPCC 05 M1727208021 Group Shared Measurement
+CORE,UPCC,05,CORE UPCC 05 M1727208022 LDAP Message Processing Time Measurement
+CORE,UPCC,05,CORE UPCC 05 M1727208023 External SPR subscription notification Measurement
+CORE,UPCC,05,CORE UPCC 05 M1727208028 PCRF Peer Session Abort Cause Measurement
+CORE,UPCC,05,CORE UPCC 05 M1727208501 PCEF-Initiated Resource Requests Discarded by PCRF
+CORE,UPCC,05,CORE UPCC 05 M1727208502 AF-Initiated Resource Requests Discarded by PCRF
+CORE,UPCC,05,CORE UPCC 05 M1727209100 CPU Load Measurement
+CORE,UPCC,05,CORE UPCC 05 M1727209101 SPR Subscriber Measurement
+CORE,UPCC,05,CORE UPCC 05 M1727209104 SCTP Association Info
+CORE,UPCC,05,CORE UPCC 05 M1727209105 Ethernet Port Measurement
+CORE,UPCC,05,CORE UPCC 05 M1727209106 PPU SCTP Messages Measurement
+CORE,UPCC,05,CORE UPCC 05 M1727209107 PPU SCTP Load Measurement
+CORE,UPCC,05,CORE UPCC 05 M1727209120 Diameter Messages Flow Control
+CORE,UPCC,05,CORE UPCC 05 M1727209121 SPU Diameter Message Measurement
+CORE,UPCC,15,CORE UPCC 15 M1727200700 DSG SCTP Load Measurement
+CORE,UPCC,15,CORE UPCC 15 M1727200702 DSG SCTP Message Measurement
+CORE,UPCC,15,CORE UPCC 15 M1727208001 Interworking Between PCRF and PCEF
+CORE,UPCC,15,CORE UPCC 15 M1727208002 Interworking Between PCRF and AF
+CORE,UPCC,15,CORE UPCC 15 M1727208004 Interworking Between PCRF and PCEF by Result Code
+CORE,UPCC,15,CORE UPCC 15 M1727208013 Interworking Between PCRF and Redundancy PCRF
+CORE,UPCC,15,CORE UPCC 15 M1727209102 Interworking Between PCRF and Specified PCEF
+CORE,UPCC,15,CORE UPCC 15 M1727209103 Interworking Between PCRF and Specified PCEF by Result Code
+CORE,UPCC,15,CORE UPCC 15 M1727209108 Interworking Between PCRF and OCS Connection Point Through Specified DRA
+CORE,UPCC,15,CORE UPCC 15 M1727209123 Interworking Between PCRF and AF by Result Code
+CORE,UPCC,15,CORE UPCC 15 M1727209124 Interworking Between PCRF and Specified AF by Result Code
+CORE,USN,05,CORE USN 05 M117440551 Gb mode attach
+CORE,USN,05,CORE USN 05 M117440553 Gb mode intra-SGSN RAU
+CORE,USN,05,CORE USN 05 M117440554 Gb mode inter-SGSN RAU
+CORE,USN,05,CORE USN 05 M117440555 Gb mode security
+CORE,USN,05,CORE USN 05 M117440556 Gb mode radio resource
+CORE,USN,05,CORE USN 05 M117440557 Gb mode paging
+CORE,USN,05,CORE USN 05 M117440572 Iu mode attach
+CORE,USN,05,CORE USN 05 M117440574 Iu mode intra-SGSN RAU
+CORE,USN,05,CORE USN 05 M117440575 Iu mode inter-SGSN RAU
+CORE,USN,05,CORE USN 05 M117440576 Iu mode security
+CORE,USN,05,CORE USN 05 M117440577 Iu mode paging
+CORE,USN,05,CORE USN 05 M117440578 Iu mode radio resource
+CORE,USN,05,CORE USN 05 M117440579 Iu mode service request
+CORE,USN,05,CORE USN 05 M117440581 SGSN relocation
+CORE,USN,05,CORE USN 05 M117440591 Gb mode PDP context activation
+CORE,USN,05,CORE USN 05 M117440593 Gb mode PDP context modification
+CORE,USN,05,CORE USN 05 M117440600 Iu mode PDP context activation
+CORE,USN,05,CORE USN 05 M117440602 Iu mode PDP context modification
+CORE,USN,05,CORE USN 05 M117440605 Iu mode RAB
+CORE,USN,05,CORE USN 05 M117440606 Iu mode SM resource
+CORE,USN,05,CORE USN 05 M117440617 Process resource
+CORE,USN,05,CORE USN 05 M117490512 S1 interface
+CORE,USN,05,CORE USN 05 M117490518 S1 mode attach
+CORE,USN,05,CORE USN 05 M117490520 S1 mode intra-MME tracking area update
+CORE,USN,05,CORE USN 05 M117490521 S1 mode inter-MME tracking area update
+CORE,USN,05,CORE USN 05 M117490522 S1 mode intra-MME handover
+CORE,USN,05,CORE USN 05 M117490523 S1 mode inter-MME handover
+CORE,USN,05,CORE USN 05 M117490524 S1 mode security
+CORE,USN,05,CORE USN 05 M117490525 S1 mode paging
+CORE,USN,05,CORE USN 05 M117490526 S1 mode service request
+CORE,USN,05,CORE USN 05 M117490527 S1 mode user resource
+CORE,USN,05,CORE USN 05 M117490531 Interconnection of LTE with UTRAN and GERAN
+CORE,USN,05,CORE USN 05 M117490532 S1 mode SRVCC
+CORE,USN,05,CORE USN 05 M117490533 Intra-USN9810 Interconnection of LTE with GSM and UMTS
+CORE,USN,05,CORE USN 05 M117490563 S1 mode bearer activation
+CORE,USN,05,CORE USN 05 M117490565 S1 mode bearer modification
+CORE,USN,05,CORE USN 05 M117490566 S1 mode PDN connectivity
+CORE,USN,05,CORE USN 05 M117490568 S1 mode bearer resource
+CORE,USN,05,CORE USN 05 M117496838 VOLTE
+CORE,USN,15,CORE USN 15 M117440512 SGSN CDR
+CORE,USN,15,CORE USN 15 M117440513 Ga interface
+CORE,USN,15,CORE USN 15 M117440515 SGSN LLC
+CORE,USN,15,CORE USN 15 M117440516 SGSN SNDCP
+CORE,USN,15,CORE USN 15 M117440519 SGSN BSSGP
+CORE,USN,15,CORE USN 15 M117440520 SGSN NS
+CORE,USN,15,CORE USN 15 M117440521 SGSN encryption
+CORE,USN,15,CORE USN 15 M117440522 SGSN Gb resource
+CORE,USN,15,CORE USN 15 M117440524 NS with specific NSE
+CORE,USN,15,CORE USN 15 M117440525 BSSGP with specific NSE
+CORE,USN,15,CORE USN 15 M117440526 Gb traffic with specific BSS
+CORE,USN,15,CORE USN 15 M117440528 GTP bearer
+CORE,USN,15,CORE USN 15 M117440530 GTP message processing
+CORE,USN,15,CORE USN 15 M117440531 SGSN DNS request
+CORE,USN,15,CORE USN 15 M117440533 GTPU Gn interface
+CORE,USN,15,CORE USN 15 M117440534 GTPU Gp Interface
+CORE,USN,15,CORE USN 15 M117440535 GTPU unknown interface
+CORE,USN,15,CORE USN 15 M117440536 GTPU bearer
+CORE,USN,15,CORE USN 15 M117440537 GTPU data packet transfer
+CORE,USN,15,CORE USN 15 M117440538 GTPU message processing
+CORE,USN,15,CORE USN 15 M117440539 GTPU data packets transfer per QOS class
+CORE,USN,15,CORE USN 15 M117440540 UE transfer bandwidth
+CORE,USN,15,CORE USN 15 M117440542 RANAP
+CORE,USN,15,CORE USN 15 M117440550 Gb mode L3 MM
+CORE,USN,15,CORE USN 15 M117440551 Gb mode attach
+CORE,USN,15,CORE USN 15 M117440553 Gb mode intra-SGSN RAU
+CORE,USN,15,CORE USN 15 M117440554 Gb mode inter-SGSN RAU
+CORE,USN,15,CORE USN 15 M117440556 Gb mode radio resource
+CORE,USN,15,CORE USN 15 M117440557 Gb mode paging
+CORE,USN,15,CORE USN 15 M117440558 Attach with specific BSS
+CORE,USN,15,CORE USN 15 M117440559 Intra-SGSN RAU with specific BSS
+CORE,USN,15,CORE USN 15 M117440560 inter-SGSN RAU with specific BSS
+CORE,USN,15,CORE USN 15 M117440561 Radio resource with specific BSS
+CORE,USN,15,CORE USN 15 M117440562 Gb mode attach with specific RAI
+CORE,USN,15,CORE USN 15 M117440563 Gb mode detach with specific RAI
+CORE,USN,15,CORE USN 15 M117440564 Gb mode intra-SGSN RAU with specific RAI
+CORE,USN,15,CORE USN 15 M117440565 Gb mode inter-SGSN RAU with specific RAI
+CORE,USN,15,CORE USN 15 M117440566 Gb mode paging with specific RAI
+CORE,USN,15,CORE USN 15 M117440567 Gb mode radio resource with specific RAI
+CORE,USN,15,CORE USN 15 M117440571 Iu mode L3 MM
+CORE,USN,15,CORE USN 15 M117440572 Iu mode attach
+CORE,USN,15,CORE USN 15 M117440573 Iu mode detach
+CORE,USN,15,CORE USN 15 M117440574 Iu mode intra-SGSN RAU
+CORE,USN,15,CORE USN 15 M117440575 Iu mode inter-SGSN RAU
+CORE,USN,15,CORE USN 15 M117440576 Iu mode security
+CORE,USN,15,CORE USN 15 M117440577 Iu mode paging
+CORE,USN,15,CORE USN 15 M117440578 Iu mode radio resource
+CORE,USN,15,CORE USN 15 M117440579 Iu mode service request
+CORE,USN,15,CORE USN 15 M117440580 Inter-system switch
+CORE,USN,15,CORE USN 15 M117440581 SGSN relocation
+CORE,USN,15,CORE USN 15 M117440582 Relocation with specific RNC
+CORE,USN,15,CORE USN 15 M117440583 Iu mode attach with specific RAI
+CORE,USN,15,CORE USN 15 M117440584 Iu mode detach with specific RAI
+CORE,USN,15,CORE USN 15 M117440585 Iu mode intra-SGSN RAU with specific RAI
+CORE,USN,15,CORE USN 15 M117440586 Iu mode inter-SGSN RAU with specific RAI
+CORE,USN,15,CORE USN 15 M117440587 Iu mode service request with specific RAI
+CORE,USN,15,CORE USN 15 M117440588 Inter-system switch with specific RAI
+CORE,USN,15,CORE USN 15 M117440589 Iu mode paging with specific RAI
+CORE,USN,15,CORE USN 15 M117440590 Iu mode radio resource with specific RAI
+CORE,USN,15,CORE USN 15 M117440591 Gb mode PDP context activation
+CORE,USN,15,CORE USN 15 M117440592 Gb mode PDP context deactivation
+CORE,USN,15,CORE USN 15 M117440593 Gb mode PDP context modification
+CORE,USN,15,CORE USN 15 M117440594 Gb mode SM L3
+CORE,USN,15,CORE USN 15 M117440595 Gb mode SM resource
+CORE,USN,15,CORE USN 15 M117440596 PDP context activation with specific BSS
+CORE,USN,15,CORE USN 15 M117440597 SM resource with specific BSS
+CORE,USN,15,CORE USN 15 M117440600 Iu mode PDP context activation
+CORE,USN,15,CORE USN 15 M117440601 Iu mode PDP context deactivation
+CORE,USN,15,CORE USN 15 M117440602 Iu mode PDP context modification
+CORE,USN,15,CORE USN 15 M117440603 Iu mode SM L3
+CORE,USN,15,CORE USN 15 M117440604 Iu mode PDP context reserve
+CORE,USN,15,CORE USN 15 M117440605 Iu mode RAB
+CORE,USN,15,CORE USN 15 M117440606 Iu mode SM resource
+CORE,USN,15,CORE USN 15 M117440608 BSSAP+ basic traffic
+CORE,USN,15,CORE USN 15 M117440609 BSSAP+ signaling procedure error and timeout
+CORE,USN,15,CORE USN 15 M117440610 MAP basic traffic
+CORE,USN,15,CORE USN 15 M117440611 MAP signaling procedure error and timeout
+CORE,USN,15,CORE USN 15 M117440612 MAP common traffic procedure error
+CORE,USN,15,CORE USN 15 M117440613 MAP Gc message transfer traffic
+CORE,USN,15,CORE USN 15 M117440614 SCCP performance
+CORE,USN,15,CORE USN 15 M117440615 SCCP availability
+CORE,USN,15,CORE USN 15 M117440616 SCCP utilization
+CORE,USN,15,CORE USN 15 M117440617 Process resource
+CORE,USN,15,CORE USN 15 M117440618 TCAP component utilization
+CORE,USN,15,CORE USN 15 M117440619 TCAP message
+CORE,USN,15,CORE USN 15 M117440620 TCAP TSL
+CORE,USN,15,CORE USN 15 M117440621 TCAP CSL
+CORE,USN,15,CORE USN 15 M117440627 CAMEL
+CORE,USN,15,CORE USN 15 M117440628 LCS
+CORE,USN,15,CORE USN 15 M117440629 Supplementary service
+CORE,USN,15,CORE USN 15 M117440630 SMS
+CORE,USN,15,CORE USN 15 M117440648 Gb mode SM resource with specific RAI
+CORE,USN,15,CORE USN 15 M117440649 Iu mode SM resource with specific RAI
+CORE,USN,15,CORE USN 15 M117440656 M3UA link
+CORE,USN,15,CORE USN 15 M117440657 M3UA link set
+CORE,USN,15,CORE USN 15 M117440658 M3UA DE
+CORE,USN,15,CORE USN 15 M117440659 Gb mode service handover
+CORE,USN,15,CORE USN 15 M117440660 Iu mode service handover
+CORE,USN,15,CORE USN 15 M117440661 Gb mode user access reject
+CORE,USN,15,CORE USN 15 M117440662 Iu mode user access reject
+CORE,USN,15,CORE USN 15 M117440663 Gb mode PDP access reject
+CORE,USN,15,CORE USN 15 M117440664 Iu mode PDP access reject
+CORE,USN,15,CORE USN 15 M117440665 NS transferred IP packet
+CORE,USN,15,CORE USN 15 M117440666 IP NS
+CORE,USN,15,CORE USN 15 M117440671 Specific routing area SM 2G measurement
+CORE,USN,15,CORE USN 15 M117440672 MBMS Broadcast Session Start Procedure
+CORE,USN,15,CORE USN 15 M117440673 MBMS Broadcast Session Stop Procedure
+CORE,USN,15,CORE USN 15 M117440674 MBMS Broadcast Bearer Resource
+CORE,USN,15,CORE USN 15 M117440678 Gb mode attach of EDGE user
+CORE,USN,15,CORE USN 15 M117440679 Gb mode PDP context activation of EDGE user
+CORE,USN,15,CORE USN 15 M117440680 Gb mode APN correction
+CORE,USN,15,CORE USN 15 M117440681 Iu mode APN correction
+CORE,USN,15,CORE USN 15 M117440683 Iu mode about tunnel
+CORE,USN,15,CORE USN 15 M117440686 Count of 2G attached users with specific PLMN
+CORE,USN,15,CORE USN 15 M117440687 Count of 3G attached users with specific PLMN
+CORE,USN,15,CORE USN 15 M117440688 DNS server inquiries
+CORE,USN,15,CORE USN 15 M117440689 Specific routing area SM 3G measurement
+CORE,USN,15,CORE USN 15 M117440690 BSSAP+ basic traffic with specific VLR
+CORE,USN,15,CORE USN 15 M117440691 PDP context deactivation in Gb Mode
+CORE,USN,15,CORE USN 15 M117440692 PDP context deactivation in Iu Mode
+CORE,USN,15,CORE USN 15 M117440716 Anti_virus packet
+CORE,USN,15,CORE USN 15 M117440717 Abnormal GTP packet
+CORE,USN,15,CORE USN 15 M117475513 Iu MOCN Mode Attach RAU Measurement
+CORE,USN,15,CORE USN 15 M117475514 Qchat Service
+CORE,USN,15,CORE USN 15 M117475515 User plane traffic with specific RNC
+CORE,USN,15,CORE USN 15 M117475517 GBIP NSVC with specific endpoint
+CORE,USN,15,CORE USN 15 M117475521 Process-level user-plane message processing
+CORE,USN,15,CORE USN 15 M117475522 Forwarding board traffic
+CORE,USN,15,CORE USN 15 M117475523 Process-level Gb Mode Radio Resource
+CORE,USN,15,CORE USN 15 M117475524 Process-level Gb Mode SM Resource
+CORE,USN,15,CORE USN 15 M117475525 Process-level Gb Mode Paging
+CORE,USN,15,CORE USN 15 M117475526 Process-level Iu Mode Radio Resource
+CORE,USN,15,CORE USN 15 M117475527 Process-level Iu Mode SM Resource
+CORE,USN,15,CORE USN 15 M117475528 Process-level Iu Mode Paging
+CORE,USN,15,CORE USN 15 M117475529 GBP process traffic statistic
+CORE,USN,15,CORE USN 15 M117475530 Gb mode attach measurement with specific PLMN
+CORE,USN,15,CORE USN 15 M117475531 Iu mode PDP context activation with specific PLMN
+CORE,USN,15,CORE USN 15 M117475532 Gb mode PDP context activation with specific PLMN
+CORE,USN,15,CORE USN 15 M117475533 Iu mode SM resource with specific PLMN
+CORE,USN,15,CORE USN 15 M117475534 Gb mode SM resource with specific PLMN
+CORE,USN,15,CORE USN 15 M117475535 Iu mode attach measurement with specific PLMN
+CORE,USN,15,CORE USN 15 M117475536 Radio resource with specific RNC
+CORE,USN,15,CORE USN 15 M117475537 SM resource with specific RNC
+CORE,USN,15,CORE USN 15 M117490512 S1 interface
+CORE,USN,15,CORE USN 15 M117490516 Diameter link set
+CORE,USN,15,CORE USN 15 M117490517 S6a interface
+CORE,USN,15,CORE USN 15 M117490518 S1 mode attach
+CORE,USN,15,CORE USN 15 M117490519 S1 mode detach
+CORE,USN,15,CORE USN 15 M117490520 S1 mode intra-MME tracking area update
+CORE,USN,15,CORE USN 15 M117490521 S1 mode inter-MME tracking area update
+CORE,USN,15,CORE USN 15 M117490523 S1 mode inter-MME handover
+CORE,USN,15,CORE USN 15 M117490524 S1 mode security
+CORE,USN,15,CORE USN 15 M117490525 S1 mode paging
+CORE,USN,15,CORE USN 15 M117490526 S1 mode service request
+CORE,USN,15,CORE USN 15 M117490527 S1 mode user resource
+CORE,USN,15,CORE USN 15 M117490528 S1 mode MME-initiated s1 release
+CORE,USN,15,CORE USN 15 M117490529 S1 mode intra eNB config transfer
+CORE,USN,15,CORE USN 15 M117490530 S1 mode inter eNB config transfer
+CORE,USN,15,CORE USN 15 M117490531 Interconnection of LTE with UTRAN and GERAN
+CORE,USN,15,CORE USN 15 M117490533 Intra-USN9810 Interconnection of LTE with GSM and UMTS
+CORE,USN,15,CORE USN 15 M117490563 S1 mode bearer activation
+CORE,USN,15,CORE USN 15 M117490564 S1 mode bearer deactivation
+CORE,USN,15,CORE USN 15 M117490565 S1 mode bearer modification
+CORE,USN,15,CORE USN 15 M117490566 S1 mode PDN connectivity
+CORE,USN,15,CORE USN 15 M117490567 S1 mode PDN disconnection
+CORE,USN,15,CORE USN 15 M117490568 S1 mode bearer resource
+CORE,USN,15,CORE USN 15 M117490569 S1 mode bearer allocation
+CORE,USN,15,CORE USN 15 M117496513 User Plane Traffic with Specific UE Type
+CORE,USN,15,CORE USN 15 M117496514 Gb Mode MM with Specific UE Type
+CORE,USN,15,CORE USN 15 M117496515 Iu Mode MM with Specific UE Type
+CORE,USN,15,CORE USN 15 M117496516 Gb Mode SM with Specific UE Type
+CORE,USN,15,CORE USN 15 M117496517 Iu Mode SM with Specific UE Type
+CORE,USN,15,CORE USN 15 M117496518 Abnormal Signalling Reduction with Specific UE Type
+CORE,USN,15,CORE USN 15 M117496519 Abnormal Signalling Reduction
+CORE,USN,15,CORE USN 15 M117496520 Gb mode intra-SGSN RAU with specific PLMN
+CORE,USN,15,CORE USN 15 M117496521 Iu mode intra-SGSN RAU with specific PLMN
+CORE,USN,15,CORE USN 15 M117496522 S1 mode APN correction
+CORE,USN,15,CORE USN 15 M117496527 eMBMS Session Start Procedure
+CORE,USN,15,CORE USN 15 M117496528 eMBMS Session Stop Procedure
+CORE,USN,15,CORE USN 15 M117496530 eMBMS Session Reset Procedure
+CORE,USN,15,CORE USN 15 M117496533 eMBMS Bearer Resource
+CORE,USN,15,CORE USN 15 M117496534 SGs interface
+CORE,USN,15,CORE USN 15 M117496535 SGs basic traffic with specific VLR
+CORE,USN,15,CORE USN 15 M117496536 Core CPU resource
+CORE,USN,15,CORE USN 15 M117496538 Cell Broadcast Service
+CORE,USN,15,CORE USN 15 M117496545 Mobility Management for Emergency Calls with Specific PLMN
+CORE,USN,15,CORE USN 15 M117496546 Session Management for Emergency Calls with Specific PLMN
+CORE,USN,15,CORE USN 15 M117496815 Messages Discarded by a Specified Process due to Overload Control
+CORE,USN,15,CORE USN 15 M117496816 Messages Discarded by the Whole System due to Overload Control
+CORE,USN,15,CORE USN 15 M117496818 S1 Mode Intra-MME Tracking Area Update with Specific PLMN
+CORE,USN,15,CORE USN 15 M117496819 S1 Mode Inter-MME Tracking Area Update with Specific PLMN
+CORE,USN,15,CORE USN 15 M117496820 S1 Mode Security with Specific PLMN
+CORE,USN,15,CORE USN 15 M117496821 S1 Mode Attach with Specific PLMN
+CORE,USN,15,CORE USN 15 M117496822 S1 Mode Detach with Specific PLMN
+CORE,USN,15,CORE USN 15 M117496823 S1 Mode User Resource with Specific PLMN
+CORE,USN,15,CORE USN 15 M117496824 S1 Mode PDN Connectivity with Specific PLMN
+CORE,USN,15,CORE USN 15 M117496825 S1 Mode Bearer Activation with Specific PLMN
+CORE,USN,15,CORE USN 15 M117496826 S1 Mode Bearer Deactivation with Specific PLMN
+CORE,USN,15,CORE USN 15 M117496827 S1 Mode Bearer Modification with Specific PLMN
+CORE,USN,15,CORE USN 15 M117496828 S1 Mode Bearer Resource with Specific PLMN
+CORE,USN,15,CORE USN 15 M117496829 S6a Interface Measurement with Specific PLMN
+CORE,USN,15,CORE USN 15 M117496830 GTPU S4 interface
+CORE,USN,15,CORE USN 15 M117496831 Iu Mode RAB with Specific RAI
+CORE,USN,15,CORE USN 15 M117496834 S102 interface
+CORE,USN,15,CORE USN 15 M117496837 Gb MOCN Mode Attach RAU Measurement
+CORE,USN,15,CORE USN 15 M117496838 VOLTE
+CORE,USN,15,CORE USN 15 M117496843 CHR Service
+CORE,USN,15,CORE USN 15 M117496846 PDN Re-Activation to Local P-GW
+CORE,USN,15,CORE USN 15 M117496847 User Plane Traffic with Specific PLMN
+CORE,USN,15,CORE USN 15 M117496848 S1 Mode Mobility management Abnormal Signaling Reduction with Specific UE Type
+CORE,USN,15,CORE USN 15 M117496849 S1 Mode Session Management Abnormal Signaling Reduction with Specific UE Type
+CORE,USN,15,CORE USN 15 M117496850 S1 Mode Mobility management Abnormal Signaling Reduction
+CORE,USN,15,CORE USN 15 M117496851 S1 Mode Session Management Abnormal Signaling Reduction
+CORE,USN,15,CORE USN 15 M117496852 S1 Mode Mobility Management for Specific TAI Group
+CORE,USN,15,CORE USN 15 M117496854 Service Restoration after S-GW or P-GW Failure
+CORE,USN,15,CORE USN 15 M117496855 System Running Status Measurement
+CORE,USN,15,CORE USN 15 M117496856 Paired boards CPU resource
+CORE,USN,15,CORE USN 15 M117496857 Device-level Redundancy Services
+CORE,USN,15,CORE USN 15 M117496859 Gb mode network reselection with specific RAI
+CORE,USN,60,CORE USN 60 M117440512 SGSN CDR
+CORE,USN,60,CORE USN 60 M117440513 Ga interface
+CORE,USN,60,CORE USN 60 M117440515 SGSN LLC
+CORE,USN,60,CORE USN 60 M117440516 SGSN SNDCP
+CORE,USN,60,CORE USN 60 M117440519 SGSN BSSGP
+CORE,USN,60,CORE USN 60 M117440520 SGSN NS
+CORE,USN,60,CORE USN 60 M117440521 SGSN encryption
+CORE,USN,60,CORE USN 60 M117440522 SGSN Gb resource
+CORE,USN,60,CORE USN 60 M117440524 NS with specific NSE
+CORE,USN,60,CORE USN 60 M117440525 BSSGP with specific NSE
+CORE,USN,60,CORE USN 60 M117440526 Gb traffic with specific BSS
+CORE,USN,60,CORE USN 60 M117440528 GTP bearer
+CORE,USN,60,CORE USN 60 M117440530 GTP message processing
+CORE,USN,60,CORE USN 60 M117440531 SGSN DNS request
+CORE,USN,60,CORE USN 60 M117440533 GTPU Gn interface
+CORE,USN,60,CORE USN 60 M117440534 GTPU Gp Interface
+CORE,USN,60,CORE USN 60 M117440535 GTPU unknown interface
+CORE,USN,60,CORE USN 60 M117440536 GTPU bearer
+CORE,USN,60,CORE USN 60 M117440537 GTPU data packet transfer
+CORE,USN,60,CORE USN 60 M117440538 GTPU message processing
+CORE,USN,60,CORE USN 60 M117440539 GTPU data packets transfer per QOS class
+CORE,USN,60,CORE USN 60 M117440540 UE transfer bandwidth
+CORE,USN,60,CORE USN 60 M117440542 RANAP
+CORE,USN,60,CORE USN 60 M117440550 Gb mode L3 MM
+CORE,USN,60,CORE USN 60 M117440551 Gb mode attach
+CORE,USN,60,CORE USN 60 M117440553 Gb mode intra-SGSN RAU
+CORE,USN,60,CORE USN 60 M117440554 Gb mode inter-SGSN RAU
+CORE,USN,60,CORE USN 60 M117440555 Gb mode security
+CORE,USN,60,CORE USN 60 M117440556 Gb mode radio resource
+CORE,USN,60,CORE USN 60 M117440557 Gb mode paging
+CORE,USN,60,CORE USN 60 M117440558 Attach with specific BSS
+CORE,USN,60,CORE USN 60 M117440559 Intra-SGSN RAU with specific BSS
+CORE,USN,60,CORE USN 60 M117440560 inter-SGSN RAU with specific BSS
+CORE,USN,60,CORE USN 60 M117440561 Radio resource with specific BSS
+CORE,USN,60,CORE USN 60 M117440562 Gb mode attach with specific RAI
+CORE,USN,60,CORE USN 60 M117440563 Gb mode detach with specific RAI
+CORE,USN,60,CORE USN 60 M117440564 Gb mode intra-SGSN RAU with specific RAI
+CORE,USN,60,CORE USN 60 M117440565 Gb mode inter-SGSN RAU with specific RAI
+CORE,USN,60,CORE USN 60 M117440566 Gb mode paging with specific RAI
+CORE,USN,60,CORE USN 60 M117440567 Gb mode radio resource with specific RAI
+CORE,USN,60,CORE USN 60 M117440571 Iu mode L3 MM
+CORE,USN,60,CORE USN 60 M117440572 Iu mode attach
+CORE,USN,60,CORE USN 60 M117440573 Iu mode detach
+CORE,USN,60,CORE USN 60 M117440574 Iu mode intra-SGSN RAU
+CORE,USN,60,CORE USN 60 M117440575 Iu mode inter-SGSN RAU
+CORE,USN,60,CORE USN 60 M117440576 Iu mode security
+CORE,USN,60,CORE USN 60 M117440577 Iu mode paging
+CORE,USN,60,CORE USN 60 M117440578 Iu mode radio resource
+CORE,USN,60,CORE USN 60 M117440579 Iu mode service request
+CORE,USN,60,CORE USN 60 M117440580 Inter-system switch
+CORE,USN,60,CORE USN 60 M117440581 SGSN relocation
+CORE,USN,60,CORE USN 60 M117440582 Relocation with specific RNC
+CORE,USN,60,CORE USN 60 M117440583 Iu mode attach with specific RAI
+CORE,USN,60,CORE USN 60 M117440584 Iu mode detach with specific RAI
+CORE,USN,60,CORE USN 60 M117440585 Iu mode intra-SGSN RAU with specific RAI
+CORE,USN,60,CORE USN 60 M117440586 Iu mode inter-SGSN RAU with specific RAI
+CORE,USN,60,CORE USN 60 M117440587 Iu mode service request with specific RAI
+CORE,USN,60,CORE USN 60 M117440588 Inter-system switch with specific RAI
+CORE,USN,60,CORE USN 60 M117440589 Iu mode paging with specific RAI
+CORE,USN,60,CORE USN 60 M117440590 Iu mode radio resource with specific RAI
+CORE,USN,60,CORE USN 60 M117440591 Gb mode PDP context activation
+CORE,USN,60,CORE USN 60 M117440592 Gb mode PDP context deactivation
+CORE,USN,60,CORE USN 60 M117440593 Gb mode PDP context modification
+CORE,USN,60,CORE USN 60 M117440594 Gb mode SM L3
+CORE,USN,60,CORE USN 60 M117440595 Gb mode SM resource
+CORE,USN,60,CORE USN 60 M117440596 PDP context activation with specific BSS
+CORE,USN,60,CORE USN 60 M117440597 SM resource with specific BSS
+CORE,USN,60,CORE USN 60 M117440600 Iu mode PDP context activation
+CORE,USN,60,CORE USN 60 M117440601 Iu mode PDP context deactivation
+CORE,USN,60,CORE USN 60 M117440602 Iu mode PDP context modification
+CORE,USN,60,CORE USN 60 M117440603 Iu mode SM L3
+CORE,USN,60,CORE USN 60 M117440604 Iu mode PDP context reserve
+CORE,USN,60,CORE USN 60 M117440605 Iu mode RAB
+CORE,USN,60,CORE USN 60 M117440606 Iu mode SM resource
+CORE,USN,60,CORE USN 60 M117440608 BSSAP+ basic traffic
+CORE,USN,60,CORE USN 60 M117440609 BSSAP+ signaling procedure error and timeout
+CORE,USN,60,CORE USN 60 M117440610 MAP basic traffic
+CORE,USN,60,CORE USN 60 M117440611 MAP signaling procedure error and timeout
+CORE,USN,60,CORE USN 60 M117440612 MAP common traffic procedure error
+CORE,USN,60,CORE USN 60 M117440613 MAP Gc message transfer traffic
+CORE,USN,60,CORE USN 60 M117440614 SCCP performance
+CORE,USN,60,CORE USN 60 M117440615 SCCP availability
+CORE,USN,60,CORE USN 60 M117440616 SCCP utilization
+CORE,USN,60,CORE USN 60 M117440617 Process resource
+CORE,USN,60,CORE USN 60 M117440618 TCAP component utilization
+CORE,USN,60,CORE USN 60 M117440619 TCAP message
+CORE,USN,60,CORE USN 60 M117440620 TCAP TSL
+CORE,USN,60,CORE USN 60 M117440621 TCAP CSL
+CORE,USN,60,CORE USN 60 M117440627 CAMEL
+CORE,USN,60,CORE USN 60 M117440628 LCS
+CORE,USN,60,CORE USN 60 M117440629 Supplementary service
+CORE,USN,60,CORE USN 60 M117440630 SMS
+CORE,USN,60,CORE USN 60 M117440648 Gb mode SM resource with specific RAI
+CORE,USN,60,CORE USN 60 M117440649 Iu mode SM resource with specific RAI
+CORE,USN,60,CORE USN 60 M117440656 M3UA link
+CORE,USN,60,CORE USN 60 M117440657 M3UA link set
+CORE,USN,60,CORE USN 60 M117440658 M3UA DE
+CORE,USN,60,CORE USN 60 M117440659 Gb mode service handover
+CORE,USN,60,CORE USN 60 M117440660 Iu mode service handover
+CORE,USN,60,CORE USN 60 M117440661 Gb mode user access reject
+CORE,USN,60,CORE USN 60 M117440662 Iu mode user access reject
+CORE,USN,60,CORE USN 60 M117440663 Gb mode PDP access reject
+CORE,USN,60,CORE USN 60 M117440664 Iu mode PDP access reject
+CORE,USN,60,CORE USN 60 M117440665 NS transferred IP packet
+CORE,USN,60,CORE USN 60 M117440666 IP NS
+CORE,USN,60,CORE USN 60 M117440671 Specific routing area SM 2G measurement
+CORE,USN,60,CORE USN 60 M117440672 MBMS Broadcast Session Start Procedure
+CORE,USN,60,CORE USN 60 M117440673 MBMS Broadcast Session Stop Procedure
+CORE,USN,60,CORE USN 60 M117440674 MBMS Broadcast Bearer Resource
+CORE,USN,60,CORE USN 60 M117440678 Gb mode attach of EDGE user
+CORE,USN,60,CORE USN 60 M117440679 Gb mode PDP context activation of EDGE user
+CORE,USN,60,CORE USN 60 M117440680 Gb mode APN correction
+CORE,USN,60,CORE USN 60 M117440681 Iu mode APN correction
+CORE,USN,60,CORE USN 60 M117440683 Iu mode about tunnel
+CORE,USN,60,CORE USN 60 M117440686 Count of 2G attached users with specific PLMN
+CORE,USN,60,CORE USN 60 M117440687 Count of 3G attached users with specific PLMN
+CORE,USN,60,CORE USN 60 M117440688 DNS server inquiries
+CORE,USN,60,CORE USN 60 M117440689 Specific routing area SM 3G measurement
+CORE,USN,60,CORE USN 60 M117440690 BSSAP+ basic traffic with specific VLR
+CORE,USN,60,CORE USN 60 M117440691 PDP context deactivation in Gb Mode
+CORE,USN,60,CORE USN 60 M117440692 PDP context deactivation in Iu Mode
+CORE,USN,60,CORE USN 60 M117440716 Anti_virus packet
+CORE,USN,60,CORE USN 60 M117440717 Abnormal GTP packet
+CORE,USN,60,CORE USN 60 M117475513 Iu MOCN Mode Attach RAU Measurement
+CORE,USN,60,CORE USN 60 M117475514 Qchat Service
+CORE,USN,60,CORE USN 60 M117475515 User plane traffic with specific RNC
+CORE,USN,60,CORE USN 60 M117475517 GBIP NSVC with specific endpoint
+CORE,USN,60,CORE USN 60 M117475521 Process-level user-plane message processing
+CORE,USN,60,CORE USN 60 M117475522 Forwarding board traffic
+CORE,USN,60,CORE USN 60 M117475523 Process-level Gb Mode Radio Resource
+CORE,USN,60,CORE USN 60 M117475524 Process-level Gb Mode SM Resource
+CORE,USN,60,CORE USN 60 M117475525 Process-level Gb Mode Paging
+CORE,USN,60,CORE USN 60 M117475526 Process-level Iu Mode Radio Resource
+CORE,USN,60,CORE USN 60 M117475527 Process-level Iu Mode SM Resource
+CORE,USN,60,CORE USN 60 M117475528 Process-level Iu Mode Paging
+CORE,USN,60,CORE USN 60 M117475529 GBP process traffic statistic
+CORE,USN,60,CORE USN 60 M117475530 Gb mode attach measurement with specific PLMN
+CORE,USN,60,CORE USN 60 M117475531 Iu mode PDP context activation with specific PLMN
+CORE,USN,60,CORE USN 60 M117475532 Gb mode PDP context activation with specific PLMN
+CORE,USN,60,CORE USN 60 M117475533 Iu mode SM resource with specific PLMN
+CORE,USN,60,CORE USN 60 M117475534 Gb mode SM resource with specific PLMN
+CORE,USN,60,CORE USN 60 M117475535 Iu mode attach measurement with specific PLMN
+CORE,USN,60,CORE USN 60 M117475536 Radio resource with specific RNC
+CORE,USN,60,CORE USN 60 M117475537 SM resource with specific RNC
+CORE,USN,60,CORE USN 60 M117490512 S1 interface
+CORE,USN,60,CORE USN 60 M117490516 Diameter link set
+CORE,USN,60,CORE USN 60 M117490517 S6a interface
+CORE,USN,60,CORE USN 60 M117490518 S1 mode attach
+CORE,USN,60,CORE USN 60 M117490519 S1 mode detach
+CORE,USN,60,CORE USN 60 M117490520 S1 mode intra-MME tracking area update
+CORE,USN,60,CORE USN 60 M117490521 S1 mode inter-MME tracking area update
+CORE,USN,60,CORE USN 60 M117490522 S1 mode intra-MME handover
+CORE,USN,60,CORE USN 60 M117490523 S1 mode inter-MME handover
+CORE,USN,60,CORE USN 60 M117490524 S1 mode security
+CORE,USN,60,CORE USN 60 M117490525 S1 mode paging
+CORE,USN,60,CORE USN 60 M117490526 S1 mode service request
+CORE,USN,60,CORE USN 60 M117490527 S1 mode user resource
+CORE,USN,60,CORE USN 60 M117490528 S1 mode MME-initiated s1 release
+CORE,USN,60,CORE USN 60 M117490529 S1 mode intra eNB config transfer
+CORE,USN,60,CORE USN 60 M117490530 S1 mode inter eNB config transfer
+CORE,USN,60,CORE USN 60 M117490531 Interconnection of LTE with UTRAN and GERAN
+CORE,USN,60,CORE USN 60 M117490532 S1 mode SRVCC
+CORE,USN,60,CORE USN 60 M117490533 Intra-USN9810 Interconnection of LTE with GSM and UMTS
+CORE,USN,60,CORE USN 60 M117490563 S1 mode bearer activation
+CORE,USN,60,CORE USN 60 M117490564 S1 mode bearer deactivation
+CORE,USN,60,CORE USN 60 M117490565 S1 mode bearer modification
+CORE,USN,60,CORE USN 60 M117490566 S1 mode PDN connectivity
+CORE,USN,60,CORE USN 60 M117490567 S1 mode PDN disconnection
+CORE,USN,60,CORE USN 60 M117490568 S1 mode bearer resource
+CORE,USN,60,CORE USN 60 M117490569 S1 mode bearer allocation
+CORE,USN,60,CORE USN 60 M117490573 S1 mode paging with specific TAI
+CORE,USN,60,CORE USN 60 M117496513 User Plane Traffic with Specific UE Type
+CORE,USN,60,CORE USN 60 M117496514 Gb Mode MM with Specific UE Type
+CORE,USN,60,CORE USN 60 M117496515 Iu Mode MM with Specific UE Type
+CORE,USN,60,CORE USN 60 M117496516 Gb Mode SM with Specific UE Type
+CORE,USN,60,CORE USN 60 M117496517 Iu Mode SM with Specific UE Type
+CORE,USN,60,CORE USN 60 M117496518 Abnormal Signalling Reduction with Specific UE Type
+CORE,USN,60,CORE USN 60 M117496519 Abnormal Signalling Reduction
+CORE,USN,60,CORE USN 60 M117496520 Gb mode intra-SGSN RAU with specific PLMN
+CORE,USN,60,CORE USN 60 M117496521 Iu mode intra-SGSN RAU with specific PLMN
+CORE,USN,60,CORE USN 60 M117496522 S1 mode APN correction
+CORE,USN,60,CORE USN 60 M117496527 eMBMS Session Start Procedure
+CORE,USN,60,CORE USN 60 M117496528 eMBMS Session Stop Procedure
+CORE,USN,60,CORE USN 60 M117496530 eMBMS Session Reset Procedure
+CORE,USN,60,CORE USN 60 M117496533 eMBMS Bearer Resource
+CORE,USN,60,CORE USN 60 M117496534 SGs interface
+CORE,USN,60,CORE USN 60 M117496535 SGs basic traffic with specific VLR
+CORE,USN,60,CORE USN 60 M117496536 Core CPU resource
+CORE,USN,60,CORE USN 60 M117496545 Mobility Management for Emergency Calls with Specific PLMN
+CORE,USN,60,CORE USN 60 M117496546 Session Management for Emergency Calls with Specific PLMN
+CORE,USN,60,CORE USN 60 M117496815 Messages Discarded by a Specified Process due to Overload Control
+CORE,USN,60,CORE USN 60 M117496816 Messages Discarded by the Whole System due to Overload Control
+CORE,USN,60,CORE USN 60 M117496818 S1 Mode Intra-MME Tracking Area Update with Specific PLMN
+CORE,USN,60,CORE USN 60 M117496819 S1 Mode Inter-MME Tracking Area Update with Specific PLMN
+CORE,USN,60,CORE USN 60 M117496820 S1 Mode Security with Specific PLMN
+CORE,USN,60,CORE USN 60 M117496821 S1 Mode Attach with Specific PLMN
+CORE,USN,60,CORE USN 60 M117496822 S1 Mode Detach with Specific PLMN
+CORE,USN,60,CORE USN 60 M117496823 S1 Mode User Resource with Specific PLMN
+CORE,USN,60,CORE USN 60 M117496824 S1 Mode PDN Connectivity with Specific PLMN
+CORE,USN,60,CORE USN 60 M117496825 S1 Mode Bearer Activation with Specific PLMN
+CORE,USN,60,CORE USN 60 M117496826 S1 Mode Bearer Deactivation with Specific PLMN
+CORE,USN,60,CORE USN 60 M117496827 S1 Mode Bearer Modification with Specific PLMN
+CORE,USN,60,CORE USN 60 M117496828 S1 Mode Bearer Resource with Specific PLMN
+CORE,USN,60,CORE USN 60 M117496829 S6a Interface Measurement with Specific PLMN
+CORE,USN,60,CORE USN 60 M117496830 GTPU S4 interface
+CORE,USN,60,CORE USN 60 M117496831 Iu Mode RAB with Specific RAI
+CORE,USN,60,CORE USN 60 M117496834 S102 interface
+CORE,USN,60,CORE USN 60 M117496837 Gb MOCN Mode Attach RAU Measurement
+CORE,USN,60,CORE USN 60 M117496838 VOLTE
+CORE,USN,60,CORE USN 60 M117496843 CHR Service
+CORE,USN,60,CORE USN 60 M117496846 PDN Re-Activation to Local P-GW
+CORE,USN,60,CORE USN 60 M117496847 User Plane Traffic with Specific PLMN
+CORE,USN,60,CORE USN 60 M117496848 S1 Mode Mobility management Abnormal Signaling Reduction with Specific UE Type
+CORE,USN,60,CORE USN 60 M117496849 S1 Mode Session Management Abnormal Signaling Reduction with Specific UE Type
+CORE,USN,60,CORE USN 60 M117496850 S1 Mode Mobility management Abnormal Signaling Reduction
+CORE,USN,60,CORE USN 60 M117496851 S1 Mode Session Management Abnormal Signaling Reduction
+CORE,USN,60,CORE USN 60 M117496852 S1 Mode Mobility Management for Specific TAI Group
+CORE,USN,60,CORE USN 60 M117496854 Service Restoration after S-GW or P-GW Failure
+CORE,USN,60,CORE USN 60 M117496855 System Running Status Measurement
+CORE,USN,60,CORE USN 60 M117496856 Paired boards CPU resource
+CORE,USN,60,CORE USN 60 M117496857 Device-level Redundancy Services
+CORE,USN,60,CORE USN 60 M117496858 Inter-USN9810 Interconnection of LTE with GSM and UMTS
+CORE,USN,60,CORE USN 60 M117496859 Gb mode network reselection with specific RAI
+CORE,USN,60,CORE USN 60 M117496914 S1 Mode NSA UE Access
+CORE,USN,60,CORE USN 60 M117496915 Iu/Gb Mode NSA UE PDP Context Activation
+CORE,USN,60,CORE USN 60 M117496920 S1 Mode N1CAP UE Access
+CORE,USN,60,CORE USN 60 M117496921 Inter Node EPS and 5GS Interworking
+EARTH,vUGW,30,EARTH vUGW 30 M13653022 CPU performance measurement
+EARTH,vUGW,30,EARTH vUGW 30 M13653024 Memory performance measurement
+EARTH,vUGW,30,EARTH vUGW 30 M13653025 Disk performance measurement
+EARTH,vUGW,30,EARTH vUGW 30 M13653026 VM management performance measurement
+EARTH,vUGW,30,EARTH vUGW 30 M13653027 VM usability
+EARTH,vUGW,30,EARTH vUGW 30 M134221228 GGSN Basic session performance measurement
+EARTH,vUGW,30,EARTH vUGW 30 M134221229 Forwarding performance measurement
+EARTH,vUGW,30,EARTH vUGW 30 M134221231 Ga interface performance measurement
+EARTH,vUGW,30,EARTH vUGW 30 M134221232 AAA performance measurement
+EARTH,vUGW,30,EARTH vUGW 30 M134221234 Ga interface performance measurement (specified CG)
+EARTH,vUGW,30,EARTH vUGW 30 M134221235 GTPv1 session measurement (specified APN)
+EARTH,vUGW,30,EARTH vUGW 30 M134221236 GTPv0 session measurement (specified APN)
+EARTH,vUGW,30,EARTH vUGW 30 M134221237 Session status measurement (specified APN)
+EARTH,vUGW,30,EARTH vUGW 30 M134221244 Forwarding performance measurement (specified APN)
+EARTH,vUGW,30,EARTH vUGW 30 M134221248 GGSN Signaling message error cause measurement
+EARTH,vUGW,30,EARTH vUGW 30 M134221252 GGSN APN session performance by traffic class
+EARTH,vUGW,30,EARTH vUGW 30 M134221255 Gy interface performance measurement
+EARTH,vUGW,30,EARTH vUGW 30 M134221256 Online charging performance measurement
+EARTH,vUGW,30,EARTH vUGW 30 M134221265 Gx interface performance measurement
+EARTH,vUGW,30,EARTH vUGW 30 M134221501 URL redirection performance measurement
+EARTH,vUGW,30,EARTH vUGW 30 M134221704 BWM performance measurement
+EARTH,vUGW,30,EARTH vUGW 30 M136314880 SGW Forwarding performance measurement
+EARTH,vUGW,30,EARTH vUGW 30 M136314887 CDR measurement
+EARTH,vUGW,30,EARTH vUGW 30 M136314925 SGW Basic session measurement
+EARTH,vUGW,30,EARTH vUGW 30 M136315101 Gy command level result code measurement (specified OCS)
+EARTH,vUGW,30,EARTH vUGW 30 M136315102 Gy MSCC level result code measurement (specified OCS)
+EARTH,vUGW,30,EARTH vUGW 30 M136315103 Basic session measurement(specified APN)
+EARTH,vUGW,30,EARTH vUGW 30 M136315104 Gy performance measurement(specified OCS)
+EARTH,vUGW,30,EARTH vUGW 30 M136316200 AAA performance measurement(AAA)
+EARTH,vUGW,30,EARTH vUGW 30 M136330101 ICAP interface performance measurement(specified ICAP Server)
+EARTH,vUGW,30,EARTH vUGW 30 M138412032 PGW Forwarding performance measurement
+EARTH,vUGW,30,EARTH vUGW 30 M138412033 PGW Forwarding performance measurement (specified APN)
+EARTH,vUGW,30,EARTH vUGW 30 M138412034 S5/S8/S2a/S2b(PGW) interface signal performance measure
+EARTH,vUGW,30,EARTH vUGW 30 M138412035 PGW Basic session measurement(specified APN)
+EARTH,vUGW,30,EARTH vUGW 30 M138412038 PGW Users number measurement
+EARTH,vUGW,30,EARTH vUGW 30 M138412060 PGW Basic session performance measurement
+EARTH,vUGW,30,EARTH vUGW 30 M140509184 System forwarding performance measurement
+EARTH,vUGW,30,EARTH vUGW 30 M140509185 Basic session measurement
+EARTH,vUGW,30,EARTH vUGW 30 M140509187 Users number measurement
+EARTH,vUGW,30,EARTH vUGW 30 M142606340 S+PGW Basic session performance measurement
+EARTH,vUGW,30,EARTH vUGW 30 M142606341 S+PGW Basic session performance measurement(specified APN)
+EARTH,vUGW,30,EARTH vUGW 30 M1124073492 IP address pool performance measurement

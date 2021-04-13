@@ -1,0 +1,22 @@
+<cols>
+  <map key="[c1728053552(t_f05_dns_m1728053448)]" value="[t_f05_dns_m1728053448].[c1728053552]"/>
+  <map key="[c1728053551(t_f05_dns_m1728053448)]" value="[t_f05_dns_m1728053448].[c1728053551]"/>
+  <map key="[begintime(t_f05_dns_m1728053448)]" value="[t_f05_dns_m1728053448].[begintime]"/>
+  <map key="[duration(t_f05_dns_m1728053448)]" value="[t_f05_dns_m1728053448].[duration]"/>
+  <map key="[c1728053559(t_f05_dns_m1728053448)]" value="[t_f05_dns_m1728053448].[c1728053559]"/>
+  <map key="[c1728053552(t_f60_dns_m1728053448)]" value="[t_f60_dns_m1728053448].[c1728053552]"/>
+  <map key="[c1728053551(t_f60_dns_m1728053448)]" value="[t_f60_dns_m1728053448].[c1728053551]"/>
+  <map key="[begintime(t_f60_dns_m1728053448)]" value="[t_f60_dns_m1728053448].[begintime]"/>
+  <map key="[duration(t_f60_dns_m1728053448)]" value="[t_f60_dns_m1728053448].[duration]"/>
+  <map key="[c1728053559(t_f60_dns_m1728053448)]" value="[t_f60_dns_m1728053448].[c1728053559]"/>
+  <map key="[holiday(t_dim_mdatetime)]" value="[t_dim_mdatetime].[holiday]"/>
+  <map key="[month(t_dim_mdatetime)]" value="[t_dim_mdatetime].[month]"/>
+  <map key="[time_key(t_dim_mdatetime)]" value="[t_dim_mdatetime].[time_key]"/>
+  <map key="[hour(t_dim_mdatetime)]" value="[t_dim_mdatetime].[hour]"/>
+  <map key="[holiday(t_dim_mdatetime)]" value="[t_dim_mdatetime].[holiday]"/>
+  <map key="[month(t_dim_mdatetime)]" value="[t_dim_mdatetime].[month]"/>
+  <map key="[time_key(t_dim_mdatetime)]" value="[t_dim_mdatetime].[time_key]"/>
+  <map key="[hour(t_dim_mdatetime)]" value="[t_dim_mdatetime].[hour]"/>
+  <map key="[holiday(t_dim_mdatetime)]" value="[t_dim_mdatetime].[holiday]"/>
+  <map key="[month(t_dim_mdatetime)]" value="[t_dim_mdatetime].[month]"/>
+</cols>
