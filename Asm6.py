@@ -1,6 +1,7 @@
 """This script output the full path of workbooks, and its name & view.
 
     Args:
+        Import from Asm1:
         ProjNameList(list) = Project Name list of all existing Projects
         ProjParentNameList(list) = Project Project of each Project, corresponding to ProjNameList
         WorkbookList(list) = Overall Workbooks List
@@ -8,15 +9,16 @@
         ParentProject(list) = Parent Project of each corresponding Workbook
 
     Return:
-        csv file contains the full path of workbooks, and its name & view
+        csv file(Asm6.csv) contains the full path of workbooks, and its name & view
 """
+
 import Asm1
 import sys
 
-def kpi_print(path, parent_proj):
+def recursion_print(path, parent_proj):
     """Locate the given input project first & search its children prject,
         until there is no child project
-        Need to extract info of Workbook in Explore/KPI Web & Explore/Workspace/$TeamProject/KPI Web
+        Print out the workbook name & its view name which belongs to that project
     """
     if parent_proj in data.keys():
         for child_proj in data[parent_proj]:
@@ -28,11 +30,11 @@ def kpi_print(path, parent_proj):
                 )
 
             if child_proj in data.keys():
-                kpi_print(
+                recursion_print(
                     full_path, child_proj
                 )
             else:
-
+                # Print the Workbook & its view which belong in that Project
                 for ite, proj in enumerate(ParentProject):
                     if proj == child_proj:
                         workbook_info = f"{WorkbookList[ite]},{ViewList[ite]}"
@@ -62,12 +64,12 @@ with open("Asm6.csv", "w") as f:
     ParentProject = Asm1.ParentProject
 
     # ---------------------------------------------------------------------------------------------
-    # Locate the top-level project & triggered recursion
+    # Locate the top-level project(Parent Project == 'None' ) & triggered recursion
     for project in data.keys():
         if project == 'None':  # top-level project
             for parent_project in data[project]:
                 full_path = "top-level project"
-                kpi_print(full_path, parent_project)
+                recursion_print(full_path, parent_project)
 
     # ---------------------------------------------------------------------------------------------
 # replacing the original output format to stdout.
